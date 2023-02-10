@@ -1,0 +1,875 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css?_v=20230210135310" />
+  <link rel="stylesheet" href="https://unpkg.com/rangeable@latest/dist/rangeable.min.css
+  ?_v=20230210135310" />
+  <link rel="stylesheet" href="css/style.min.css?_v=20230210135310" />
+  <title>Главная</title>
+</head>
+
+<body>
+    <header class="header">
+    <!-- Header TOP -->
+    <section class="header__top">
+        <div class="header__top-container container">
+            <!-- Menu to pages -->
+            <ul class="header__top-menu">
+                <li class="header__top-menu-item">
+                    <a href="about.html" class="header__top-menu-link">О компании</a>
+                </li>
+                <li class="header__top-menu-item">
+                    <a href="" class="header__top-menu-link">Акции</a>
+                </li>
+                <li class="header__top-menu-item">
+                    <a href="services.html" class="header__top-menu-link">Услуги</a>
+                </li>
+                <li class="header__top-menu-item">
+                    <a href="posts.html" class="header__top-menu-link">Блог</a>
+                </li>
+                <li class="header__top-menu-item">
+                    <a href="projects.html" class="header__top-menu-link">Объекты</a>
+                </li>
+                <li class="header__top-menu-item">
+                    <a href="" class="header__top-menu-link">Отзывы</a>
+                </li>
+                <li class="header__top-menu-item">
+                    <a href="contacts.html" class="header__top-menu-link">Контакты</a>
+                </li>
+            </ul>
+
+            <!-- Place -->
+            <div class="header__top-place desktop-place">
+                <!-- Text Where are you ? -->
+                <small>Ваш город:</small>
+
+                <!-- Placeholder -->
+                <div id="select-city-open" class="header__top-place">
+                    <i class="i-placeholder"></i>
+                    <p>Новосибирск</p>
+                </div>
+            </div>
+
+            <!-- Place -->
+            <div class="header__top-place mobile-place">
+                <!-- Text Where are you ? -->
+                <small>Ваш город:</small>
+
+                <!-- Placeholder -->
+                <div id="city-mobile-open" class="header__top-place">
+                    <i class="i-placeholder"></i>
+                    <p>Новосибирск</p>
+                </div>
+            </div>
+
+            <!-- Mobile Buttons -->
+            <div class="header__top-mobile-btns">
+                <!-- Search -->
+                <button id="search-mobile-open" class="header__top-mobile-btn">
+                    <i class="i-search"></i>
+                </button>
+
+                <!-- Whatsapp -->
+                <a href="#" class="header__top-mobile-btn">
+                    <i class="i-whatsapp"></i>
+                </a>
+
+                <!-- Telegram -->
+                <a href="#" class="header__top-mobile-btn">
+                    <i class="i-telegram"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Header -->
+    <section class="header__toolbar container">
+        <!-- Logo -->
+        <a href="index.html" class="header__logo">
+            <picture><source srcset="images/logo.webp" type="image/webp"><img src="images/logo.png" alt=""></picture>
+        </a>
+
+        <!-- Search -->
+        <form action="#" class="header__search-form">
+            <div class="header__search-control">
+                <!-- Input -->
+                <input class="header__search-input" type="text" placeholder="Поиск по сайту">
+
+                <!-- Button search -->
+                <button class="header__search-btn">
+                    <i class="i-search"></i>
+                </button>
+            </div>
+        </form>
+
+        <!-- Contacts -->
+        <div class="header__contacts">
+            <!-- Socials -->
+            <ul class="header__socials">
+                <li class="header__socials-item">
+                    <a href="" class="header__socials-link">
+                        <i class="i-whatsapp"></i>
+                    </a>
+                </li>
+                <li class="header__socials-item">
+                    <a href="" class="header__socials-link">
+                        <i class="i-telegram"></i>
+                    </a>
+                </li>
+            </ul>
+
+            <!-- Phone -->
+            <a href="#" class="header__phone">
+                +7 (383) 202-85-10
+            </a>
+        </div>
+
+        <!-- Basket -->
+        <div class="header__basket">
+            <!-- Link -->
+            <a href="#" class="header__basket-link">
+                <i class="i-basket"></i>
+                <!-- Count -->
+                <span class="header__basket-value">5</span>
+            </a>
+
+            <!-- Text -->
+            <div class="header__basket-txt">
+                <p class="header__basket-txt-title">Корзина</p>
+                <p class="header__basket-count">120 000 ₽ </p>
+            </div>
+
+            <!-- Mobile menu button -->
+            <button id="menu-mobile-open" class="header__mobile-menu-open">
+                <i class="i-burger"></i>
+            </button>
+        </div>
+    </section>
+
+    <!-- Navbar -->
+    <nav class="header__navbar container">
+        <ul class="header__navbar-list">
+            <!-- +++++++++++++++++++++++++ -->
+            <li class="header__navbar-list-item">
+                <p class="header__navbar-list-title">Листовой прокат</p>
+                <!-- Dropdown -->
+                <ul class="header__navbar-dropdown">
+                    <li class="header__navbar-dropdown-item">
+                        <a href="#" class="header__navbar-dropdown-link">
+                            Трубный прокат
+                        </a>
+                    </li>
+                    <li class="header__navbar-dropdown-item">
+                        <a href="#" class="header__navbar-dropdown-link">
+                            Трубный прокат
+                        </a>
+                    </li>
+                    <li class="header__navbar-dropdown-item">
+                        <a href="#" class="header__navbar-dropdown-link">
+                            Трубный прокат
+                        </a>
+                    </li>
+                    <li class="header__navbar-dropdown-item">
+                        <a href="#" class="header__navbar-dropdown-link">
+                            Трубный прокат
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <!-- +++++++++++++++++++++++++ -->
+            <li class="header__navbar-list-item">
+                <p class="header__navbar-list-title">Трубный прокат</p>
+                <!-- Dropdown -->
+                <ul class="header__navbar-dropdown">
+                    <li class="header__navbar-dropdown-item">
+                        <a href="#" class="header__navbar-dropdown-link">
+                            Трубный прокат
+                        </a>
+                    </li>
+                    <li class="header__navbar-dropdown-item">
+                        <a href="#" class="header__navbar-dropdown-link">
+                            Трубный прокат
+                        </a>
+                    </li>
+                    <li class="header__navbar-dropdown-item">
+                        <a href="#" class="header__navbar-dropdown-link">
+                            Трубный прокат
+                        </a>
+                    </li>
+                    <li class="header__navbar-dropdown-item">
+                        <a href="#" class="header__navbar-dropdown-link">
+                            Трубный прокат
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <!-- +++++++++++++++++++++++++ -->
+            <li class="header__navbar-list-item">
+                <p class="header__navbar-list-title">Фасонный прокат</p>
+                <!-- Dropdown -->
+                <ul class="header__navbar-dropdown">
+                    <li class="header__navbar-dropdown-item">
+                        <a href="#" class="header__navbar-dropdown-link">
+                            Трубный прокат
+                        </a>
+                    </li>
+                    <li class="header__navbar-dropdown-item">
+                        <a href="#" class="header__navbar-dropdown-link">
+                            Трубный прокат
+                        </a>
+                    </li>
+                    <li class="header__navbar-dropdown-item">
+                        <a href="#" class="header__navbar-dropdown-link">
+                            Трубный прокат
+                        </a>
+                    </li>
+                    <li class="header__navbar-dropdown-item">
+                        <a href="#" class="header__navbar-dropdown-link">
+                            Трубный прокат
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <!-- +++++++++++++++++++++++++ -->
+            <li class="header__navbar-list-item">
+                <p class="header__navbar-list-title">Сортовой прокат</p>
+                <!-- Dropdown -->
+                <ul class="header__navbar-dropdown">
+                    <li class="header__navbar-dropdown-item">
+                        <a href="#" class="header__navbar-dropdown-link">
+                            Трубный прокат
+                        </a>
+                    </li>
+                    <li class="header__navbar-dropdown-item">
+                        <a href="#" class="header__navbar-dropdown-link">
+                            Трубный прокат
+                        </a>
+                    </li>
+                    <li class="header__navbar-dropdown-item">
+                        <a href="#" class="header__navbar-dropdown-link">
+                            Трубный прокат
+                        </a>
+                    </li>
+                    <li class="header__navbar-dropdown-item">
+                        <a href="#" class="header__navbar-dropdown-link">
+                            Трубный прокат
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <!-- +++++++++++++++++++++++++ -->
+            <li class="header__navbar-list-item">
+                <p class="header__navbar-list-title">Нержавеющий прокат</p>
+                <!-- Dropdown -->
+                <ul class="header__navbar-dropdown">
+                    <li class="header__navbar-dropdown-item">
+                        <a href="#" class="header__navbar-dropdown-link">
+                            Трубный прокат
+                        </a>
+                    </li>
+                    <li class="header__navbar-dropdown-item">
+                        <a href="#" class="header__navbar-dropdown-link">
+                            Трубный прокат
+                        </a>
+                    </li>
+                    <li class="header__navbar-dropdown-item">
+                        <a href="#" class="header__navbar-dropdown-link">
+                            Трубный прокат
+                        </a>
+                    </li>
+                    <li class="header__navbar-dropdown-item">
+                        <a href="#" class="header__navbar-dropdown-link">
+                            Трубный прокат
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <!-- +++++++++++++++++++++++++ -->
+            <li class="header__navbar-list-item">
+                <p class="header__navbar-list-title">Алюминий и сплавы</p>
+                <!-- Dropdown -->
+                <ul class="header__navbar-dropdown">
+                    <li class="header__navbar-dropdown-item">
+                        <a href="#" class="header__navbar-dropdown-link">
+                            Трубный прокат
+                        </a>
+                    </li>
+                    <li class="header__navbar-dropdown-item">
+                        <a href="#" class="header__navbar-dropdown-link">
+                            Трубный прокат
+                        </a>
+                    </li>
+                    <li class="header__navbar-dropdown-item">
+                        <a href="#" class="header__navbar-dropdown-link">
+                            Трубный прокат
+                        </a>
+                    </li>
+                    <li class="header__navbar-dropdown-item">
+                        <a href="#" class="header__navbar-dropdown-link">
+                            Трубный прокат
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <!-- +++++++++++++++++++++++++ -->
+            <li class="header__navbar-list-item">
+                <p class="header__navbar-list-title">Медь и сплавы</p>
+                <!-- Dropdown -->
+                <ul class="header__navbar-dropdown">
+                    <li class="header__navbar-dropdown-item">
+                        <a href="#" class="header__navbar-dropdown-link">
+                            Трубный прокат
+                        </a>
+                    </li>
+                    <li class="header__navbar-dropdown-item">
+                        <a href="#" class="header__navbar-dropdown-link">
+                            Трубный прокат
+                        </a>
+                    </li>
+                    <li class="header__navbar-dropdown-item">
+                        <a href="#" class="header__navbar-dropdown-link">
+                            Трубный прокат
+                        </a>
+                    </li>
+                    <li class="header__navbar-dropdown-item">
+                        <a href="#" class="header__navbar-dropdown-link">
+                            Трубный прокат
+                        </a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</header>
+    <main>
+        <!-- breadcrumbs -->
+        <section class="breadcrumbs__section">
+            <div class="container">
+                <ul class="breadcrumbs">
+                    <li class="breadcrumbs__item">
+                        <a href="index.html" class="breadcrumbs__item-link">Главная</a>
+                    </li>
+                    <li class="breadcrumbs__item active">
+                        <a href="" class="breadcrumbs__item-link">Услуги</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="services">
+            <div class="container">
+                <div class="section__big">
+                    <!-- Title Big -->
+                    <h2 class="section__big-title">Прокат листовой горячекатанный</h2>
+                </div>
+
+                <!-- Services -->
+                <div class="row">
+                    <div class="col-xl-3 col-lg-4 col-6">
+                        <div class="service">
+    <!-- Header -->
+    <a href="#" class="service__header">
+        <!-- Sale -->
+        <span class="service__promo">
+            Акция
+        </span>
+        <!-- Image -->
+        <picture><source srcset="images/ser-1.webp" type="image/webp"><img class="service__img" src="images/ser-1.jpg" alt=""></picture>
+    </a>
+    <!-- Title -->
+    <a href="#">
+        <h3 class="service__title">
+            Рубка металла гильотиной
+        </h3>
+    </a>
+    <!-- Description -->
+    <p class="service__desc">
+        Краткое описание услуги. Краткое описание услуги. И что-то еще.
+    </p>
+    <!-- Price -->
+    <div class="service__price">
+        <!-- Original Prise -->
+        <del class="service__price-del">
+            от 100 000 Р / тонна
+        </del>
+        <!-- Price Now -->
+        <p class="service__price-bold">
+            от 1 000 ₽/тонна
+        </p>
+    </div>
+    <!-- Footer -->
+    <p class="service__footer">
+        <!-- To basket -->
+        <button class="service__basket service__btn btn red">
+            <i class="i-basket"></i>
+            <p>В КОРЗИНУ</p>
+        </button>
+        <!-- Link -->
+        <a href="" class="service__link service__btn btn grey">ПОДРОБНЕЕ</a>
+    </p>
+</div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-6">
+                        <div class="service">
+    <!-- Header -->
+    <a href="#" class="service__header">
+        <!-- Sale -->
+        <span class="service__promo">
+            Акция
+        </span>
+        <!-- Image -->
+        <picture><source srcset="images/ser-1.webp" type="image/webp"><img class="service__img" src="images/ser-1.jpg" alt=""></picture>
+    </a>
+    <!-- Title -->
+    <a href="#">
+        <h3 class="service__title">
+            Рубка металла гильотиной
+        </h3>
+    </a>
+    <!-- Description -->
+    <p class="service__desc">
+        Краткое описание услуги. Краткое описание услуги. И что-то еще.
+    </p>
+    <!-- Price -->
+    <div class="service__price">
+        <!-- Original Prise -->
+        <del class="service__price-del">
+            от 100 000 Р / тонна
+        </del>
+        <!-- Price Now -->
+        <p class="service__price-bold">
+            от 1 000 ₽/тонна
+        </p>
+    </div>
+    <!-- Footer -->
+    <p class="service__footer">
+        <!-- To basket -->
+        <button class="service__basket service__btn btn red">
+            <i class="i-basket"></i>
+            <p>В КОРЗИНУ</p>
+        </button>
+        <!-- Link -->
+        <a href="" class="service__link service__btn btn grey">ПОДРОБНЕЕ</a>
+    </p>
+</div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-6">
+                        <div class="service">
+    <!-- Header -->
+    <a href="#" class="service__header">
+        <!-- Sale -->
+        <span class="service__promo">
+            Акция
+        </span>
+        <!-- Image -->
+        <picture><source srcset="images/ser-1.webp" type="image/webp"><img class="service__img" src="images/ser-1.jpg" alt=""></picture>
+    </a>
+    <!-- Title -->
+    <a href="#">
+        <h3 class="service__title">
+            Рубка металла гильотиной
+        </h3>
+    </a>
+    <!-- Description -->
+    <p class="service__desc">
+        Краткое описание услуги. Краткое описание услуги. И что-то еще.
+    </p>
+    <!-- Price -->
+    <div class="service__price">
+        <!-- Original Prise -->
+        <del class="service__price-del">
+            от 100 000 Р / тонна
+        </del>
+        <!-- Price Now -->
+        <p class="service__price-bold">
+            от 1 000 ₽/тонна
+        </p>
+    </div>
+    <!-- Footer -->
+    <p class="service__footer">
+        <!-- To basket -->
+        <button class="service__basket service__btn btn red">
+            <i class="i-basket"></i>
+            <p>В КОРЗИНУ</p>
+        </button>
+        <!-- Link -->
+        <a href="" class="service__link service__btn btn grey">ПОДРОБНЕЕ</a>
+    </p>
+</div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-6">
+                        <div class="service">
+    <!-- Header -->
+    <a href="#" class="service__header">
+        <!-- Sale -->
+        <span class="service__promo">
+            Акция
+        </span>
+        <!-- Image -->
+        <picture><source srcset="images/ser-1.webp" type="image/webp"><img class="service__img" src="images/ser-1.jpg" alt=""></picture>
+    </a>
+    <!-- Title -->
+    <a href="#">
+        <h3 class="service__title">
+            Рубка металла гильотиной
+        </h3>
+    </a>
+    <!-- Description -->
+    <p class="service__desc">
+        Краткое описание услуги. Краткое описание услуги. И что-то еще.
+    </p>
+    <!-- Price -->
+    <div class="service__price">
+        <!-- Original Prise -->
+        <del class="service__price-del">
+            от 100 000 Р / тонна
+        </del>
+        <!-- Price Now -->
+        <p class="service__price-bold">
+            от 1 000 ₽/тонна
+        </p>
+    </div>
+    <!-- Footer -->
+    <p class="service__footer">
+        <!-- To basket -->
+        <button class="service__basket service__btn btn red">
+            <i class="i-basket"></i>
+            <p>В КОРЗИНУ</p>
+        </button>
+        <!-- Link -->
+        <a href="" class="service__link service__btn btn grey">ПОДРОБНЕЕ</a>
+    </p>
+</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+    
+    <footer class="footer">
+    <div class="footer__body">
+        <!-- title -->
+        <h2 class="footer__title">
+            Свяжитесь с нами
+        </h2>
+
+        <!-- Contacts -->
+        <ul class="footer__contacts">
+            <li class="footer__contacts-item">
+                <strong>Адрес</strong>
+                <p>660061, г. Красноярск, ул. Калинина 51Г</p>
+            </li>
+            <li class="footer__contacts-item">
+                <strong>Телефон</strong>
+                <p>+7 (391) 219-24-00</p>
+            </li>
+            <li class="footer__contacts-item">
+                <strong>E-mail</strong>
+                <p>info@metallosnab.com</p>
+            </li>
+            <li class="footer__contacts-item">
+                <strong>График работы</strong>
+                <p>Пн-Пт с 9:00 до 20:00</p>
+            </li>
+        </ul>
+
+        <!-- Socials -->
+        <ul class="footer__socials">
+            <li class="footer__socials-item">
+                <a href="#" class="footer__socials-link">
+                    <div class="icon">
+                        <i class="i-whatsapp"></i>
+                    </div>
+                    <div class="content">
+                        <small>Написать в</small>
+                        <strong>WhatsApp</strong>
+                    </div>
+                </a>
+            </li>
+            <li class="footer__socials-item">
+                <a href="#" class="footer__socials-link">
+                    <div class="icon">
+                        <i class="i-whatsapp"></i>
+                    </div>
+                    <div class="content">
+                        <small>Написать в</small>
+                        <strong>WhatsApp</strong>
+                    </div>
+                </a>
+            </li>
+        </ul>
+
+        <!-- Links -->
+        <ul class="footer__links">
+            <li class="footer__links-item"><a href="" class="footer__links-link">Политика конфиденциальности</a></li>
+            <li class="footer__links-item"><a href="" class="footer__links-link">Карта сайта</a></li>
+            <li class="footer__links-item"><a href="" class="footer__links-link">Вакансии</a></li>
+        </ul>
+    </div>
+    <div class="footer__map">
+        <div style="position:relative;overflow:hidden;"><a href="https://yandex.com/maps/213/moscow/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Москва</a><a href="https://yandex.com/maps/213/moscow/?ll=37.585925%2C55.805465&utm_medium=mapframe&utm_source=maps&z=15.42" style="color:#eee;font-size:12px;position:absolute;top:14px;">Россия — Яндекс Карты</a><iframe src="https://yandex.com/map-widget/v1/?ll=37.585925%2C55.805465&z=15.42" width="100%" height="765" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+    </div>
+</footer>
+<section class="footer__copyright">
+    <div class="container footer__copyright-container">
+        <div class="col-sm-10">
+            <p>© 2022 “Металлоснаб” - База металлопроката в Красноярске. Все права защищены, любое копирование материалов запрещено. Вся представленная информация на сайте носит информационный характер и ни при каких условиях не является публичной офертой.</p>
+        </div>
+    </div>
+</section>
+
+    <!-- Mobile Popups -->
+    <div id="select-city" class="select__city-overlay">
+    <div class="select__city">
+        <!-- Close -->
+        <button id="select-city-close" class="select__city-close">
+            <i class="i-close"></i>
+        </button>
+
+        <!-- Title -->
+        <h3 class="select__city-title">Выберите город</h3>
+
+        <!-- Form -->
+        <div class="select__city-control">
+            <input placeholder="Найти свой город" type="text" class="select__city-input">
+        </div>
+
+        <ul class="select__city-list">
+            <li class="select__city-list-item">
+                <a href="#" class="select__city-list-link active">Красноярск</a>
+            </li>
+            <li class="select__city-list-item">
+                <a href="#" class="select__city-list-link">Красноярск</a>
+            </li>
+            <li class="select__city-list-item">
+                <a href="#" class="select__city-list-link">Красноярск</a>
+            </li>
+            <li class="select__city-list-item">
+                <a href="#" class="select__city-list-link">Красноярск</a>
+            </li>
+            <li class="select__city-list-item">
+                <a href="#" class="select__city-list-link">Красноярск</a>
+            </li>
+            <li class="select__city-list-item">
+                <a href="#" class="select__city-list-link">Красноярск</a>
+            </li>
+        </ul>
+    </div>
+</div>
+    <!-- Search Overlay -->
+<div id="search-mobile" class="mobile__popup-overlay mobile__search">
+    <div class="container">
+        <!-- Close Popup -->
+        <button id="search-mobile-close" class="mobile__popup-close">
+            <i class="i-close"></i>
+            <p class="mobile__search-close-txt">Поиск</p>
+        </button>
+
+        <form action="" class="mobile__search-form">
+            <div class="mobile__search-control">
+                <input placeholder="Что вы ищете?" type="text" class="mobile__search-input">
+                <button class="mobile__search-btn">
+                    <i class="i-close"></i>
+                </button>
+            </div>
+        </form>
+
+        <ul class="mobile__search-list">
+            <li class="mobile__search-list-item">
+                <a href="#" class="mobile__search-list-link">
+                    <i class="i-search"></i>
+                    <p>Листовой прокат</p>
+                </a>
+            </li>
+            <li class="mobile__search-list-item">
+                <a href="#" class="mobile__search-list-link">
+                    <i class="i-search"></i>
+                    <p>Листовой прокат</p>
+                </a>
+            </li>
+            <li class="mobile__search-list-item">
+                <a href="#" class="mobile__search-list-link">
+                    <i class="i-search"></i>
+                    <p>Листовой прокат</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+    <!-- Mobile Menu -->
+<div id="menu-mobile" class="mobile__popup-overlay menu__mobile">
+    <div class="container">
+        <!-- Close Popup -->
+        <button id="menu-mobile-close" class="mobile__popup-close">
+            <i class="i-close"></i>
+            <p class="mobile__search-close-txt">МЕНЮ</p>
+        </button>
+
+        <ul class="menu__mobile-list">
+            <li class="menu__mobile-list-item active">
+                <p id="menu-mobile-accardion-open" class="menu__mobile-list-title">Листовой прокат</p>
+
+                <ul class="menu__mobile-dropdown">
+                    <li class="menu__mobile-dropdown-item">
+                        <a href="#" class="menu__mobile-dropdown-link">
+                            Подменю 1
+                        </a>
+                    </li>
+                    <li class="menu__mobile-dropdown-item">
+                        <a href="#" class="menu__mobile-dropdown-link">
+                            Подменю 1
+                        </a>
+                    </li>
+                    <li class="menu__mobile-dropdown-item">
+                        <a href="#" class="menu__mobile-dropdown-link">
+                            Подменю 1
+                        </a>
+                    </li>
+                    <li class="menu__mobile-dropdown-item">
+                        <a href="#" class="menu__mobile-dropdown-link">
+                            Подменю 1
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="menu__mobile-list-item">
+                <p id="menu-mobile-accardion-open" class="menu__mobile-list-title">Листовой прокат</p>
+
+                <ul class="menu__mobile-dropdown">
+                    <li class="menu__mobile-dropdown-item">
+                        <a href="#" class="menu__mobile-dropdown-link">
+                            Подменю 1
+                        </a>
+                    </li>
+                    <li class="menu__mobile-dropdown-item">
+                        <a href="#" class="menu__mobile-dropdown-link">
+                            Подменю 1
+                        </a>
+                    </li>
+                    <li class="menu__mobile-dropdown-item">
+                        <a href="#" class="menu__mobile-dropdown-link">
+                            Подменю 1
+                        </a>
+                    </li>
+                    <li class="menu__mobile-dropdown-item">
+                        <a href="#" class="menu__mobile-dropdown-link">
+                            Подменю 1
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="menu__mobile-list-item">
+                <p id="menu-mobile-accardion-open" class="menu__mobile-list-title">Листовой прокат</p>
+
+                <ul class="menu__mobile-dropdown">
+                    <li class="menu__mobile-dropdown-item">
+                        <a href="#" class="menu__mobile-dropdown-link">
+                            Подменю 1
+                        </a>
+                    </li>
+                    <li class="menu__mobile-dropdown-item">
+                        <a href="#" class="menu__mobile-dropdown-link">
+                            Подменю 1
+                        </a>
+                    </li>
+                    <li class="menu__mobile-dropdown-item">
+                        <a href="#" class="menu__mobile-dropdown-link">
+                            Подменю 1
+                        </a>
+                    </li>
+                    <li class="menu__mobile-dropdown-item">
+                        <a href="#" class="menu__mobile-dropdown-link">
+                            Подменю 1
+                        </a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+
+        <ul class="menu__mobile-menu">
+            <li class="menu__mobile-menu-item">
+                <a href="#" class="menu__mobile-menu-link">
+                    О компании
+                </a>
+            </li>
+            <li class="menu__mobile-menu-item">
+                <a href="#" class="menu__mobile-menu-link">
+                    О компании
+                </a>
+            </li>
+            <li class="menu__mobile-menu-item">
+                <a href="#" class="menu__mobile-menu-link">
+                    О компании
+                </a>
+            </li>
+            <li class="menu__mobile-menu-item">
+                <a href="#" class="menu__mobile-menu-link">
+                    О компании
+                </a>
+            </li>
+            <li class="menu__mobile-menu-item">
+                <a href="#" class="menu__mobile-menu-link">
+                    О компании
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+    <!-- City -->
+<div id="city-mobile" class="mobile__popup-overlay mobile__city">
+    <div class="container">
+        <!-- Close Popup -->
+        <button id="city-mobile-close" class="mobile__popup-close">
+            <i class="i-close"></i>
+            <p class="mobile__city-close-txt">ВЫБОР ГОРОДА</p>
+        </button>
+
+        <!-- Title -->
+        <h3 class="mobile__city-title">Выберите город</h3>
+
+        <!-- Form -->
+            <div class="mobile__city-control">
+                <input placeholder="Найти свой город" type="text" class="mobile__city-input">
+                <button class="mobile__city-btn">
+                    <i class="i-close"></i>
+                </button>
+            </div>
+
+        <ul class="mobile__city-list">
+            <li class="mobile__city-list-item">
+                <a href="#" class="mobile__city-list-link active">Красноярск</a>
+            </li>
+            <li class="mobile__city-list-item">
+                <a href="#" class="mobile__city-list-link">Красноярск</a>
+            </li>
+            <li class="mobile__city-list-item">
+                <a href="#" class="mobile__city-list-link">Красноярск</a>
+            </li>
+            <li class="mobile__city-list-item">
+                <a href="#" class="mobile__city-list-link">Красноярск</a>
+            </li>
+            <li class="mobile__city-list-item">
+                <a href="#" class="mobile__city-list-link">Красноярск</a>
+            </li>
+            <li class="mobile__city-list-item">
+                <a href="#" class="mobile__city-list-link">Красноярск</a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12?_v=20230210135310"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js?_v=20230210135310"></script>
+    <script src="js/app.min.js?_v=20230210135310"></script>
+</body>
+
+</html>

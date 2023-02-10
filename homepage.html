@@ -1,0 +1,2577 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css?_v=20230210135310" />
+  <link rel="stylesheet" href="https://unpkg.com/rangeable@latest/dist/rangeable.min.css
+  ?_v=20230210135310" />
+  <link rel="stylesheet" href="css/style.min.css?_v=20230210135310" />
+  <title>Главная</title>
+</head>
+
+<body>
+  <header class="header">
+    <!-- Header TOP -->
+    <section class="header__top">
+        <div class="header__top-container container">
+            <!-- Menu to pages -->
+            <ul class="header__top-menu">
+                <li class="header__top-menu-item">
+                    <a href="about.html" class="header__top-menu-link">О компании</a>
+                </li>
+                <li class="header__top-menu-item">
+                    <a href="" class="header__top-menu-link">Акции</a>
+                </li>
+                <li class="header__top-menu-item">
+                    <a href="services.html" class="header__top-menu-link">Услуги</a>
+                </li>
+                <li class="header__top-menu-item">
+                    <a href="posts.html" class="header__top-menu-link">Блог</a>
+                </li>
+                <li class="header__top-menu-item">
+                    <a href="projects.html" class="header__top-menu-link">Объекты</a>
+                </li>
+                <li class="header__top-menu-item">
+                    <a href="" class="header__top-menu-link">Отзывы</a>
+                </li>
+                <li class="header__top-menu-item">
+                    <a href="contacts.html" class="header__top-menu-link">Контакты</a>
+                </li>
+            </ul>
+
+            <!-- Place -->
+            <div class="header__top-place desktop-place">
+                <!-- Text Where are you ? -->
+                <small>Ваш город:</small>
+
+                <!-- Placeholder -->
+                <div id="select-city-open" class="header__top-place">
+                    <i class="i-placeholder"></i>
+                    <p>Новосибирск</p>
+                </div>
+            </div>
+
+            <!-- Place -->
+            <div class="header__top-place mobile-place">
+                <!-- Text Where are you ? -->
+                <small>Ваш город:</small>
+
+                <!-- Placeholder -->
+                <div id="city-mobile-open" class="header__top-place">
+                    <i class="i-placeholder"></i>
+                    <p>Новосибирск</p>
+                </div>
+            </div>
+
+            <!-- Mobile Buttons -->
+            <div class="header__top-mobile-btns">
+                <!-- Search -->
+                <button id="search-mobile-open" class="header__top-mobile-btn">
+                    <i class="i-search"></i>
+                </button>
+
+                <!-- Whatsapp -->
+                <a href="#" class="header__top-mobile-btn">
+                    <i class="i-whatsapp"></i>
+                </a>
+
+                <!-- Telegram -->
+                <a href="#" class="header__top-mobile-btn">
+                    <i class="i-telegram"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Header -->
+    <section class="header__toolbar container">
+        <!-- Logo -->
+        <a href="index.html" class="header__logo">
+            <picture><source srcset="images/logo.webp" type="image/webp"><img src="images/logo.png" alt=""></picture>
+        </a>
+
+        <!-- Search -->
+        <form action="#" class="header__search-form">
+            <div class="header__search-control">
+                <!-- Input -->
+                <input class="header__search-input" type="text" placeholder="Поиск по сайту">
+
+                <!-- Button search -->
+                <button class="header__search-btn">
+                    <i class="i-search"></i>
+                </button>
+            </div>
+        </form>
+
+        <!-- Contacts -->
+        <div class="header__contacts">
+            <!-- Socials -->
+            <ul class="header__socials">
+                <li class="header__socials-item">
+                    <a href="" class="header__socials-link">
+                        <i class="i-whatsapp"></i>
+                    </a>
+                </li>
+                <li class="header__socials-item">
+                    <a href="" class="header__socials-link">
+                        <i class="i-telegram"></i>
+                    </a>
+                </li>
+            </ul>
+
+            <!-- Phone -->
+            <a href="#" class="header__phone">
+                +7 (383) 202-85-10
+            </a>
+        </div>
+
+        <!-- Basket -->
+        <div class="header__basket">
+            <!-- Link -->
+            <a href="#" class="header__basket-link">
+                <i class="i-basket"></i>
+                <!-- Count -->
+                <span class="header__basket-value">5</span>
+            </a>
+
+            <!-- Text -->
+            <div class="header__basket-txt">
+                <p class="header__basket-txt-title">Корзина</p>
+                <p class="header__basket-count">120 000 ₽ </p>
+            </div>
+
+            <!-- Mobile menu button -->
+            <button id="menu-mobile-open" class="header__mobile-menu-open">
+                <i class="i-burger"></i>
+            </button>
+        </div>
+    </section>
+
+    <!-- Navbar -->
+    <nav class="header__navbar container">
+        <ul class="header__navbar-list">
+            <!-- +++++++++++++++++++++++++ -->
+            <li class="header__navbar-list-item">
+                <p class="header__navbar-list-title">Листовой прокат</p>
+                <!-- Dropdown -->
+                <ul class="header__navbar-dropdown">
+                    <li class="header__navbar-dropdown-item">
+                        <a href="#" class="header__navbar-dropdown-link">
+                            Трубный прокат
+                        </a>
+                    </li>
+                    <li class="header__navbar-dropdown-item">
+                        <a href="#" class="header__navbar-dropdown-link">
+                            Трубный прокат
+                        </a>
+                    </li>
+                    <li class="header__navbar-dropdown-item">
+                        <a href="#" class="header__navbar-dropdown-link">
+                            Трубный прокат
+                        </a>
+                    </li>
+                    <li class="header__navbar-dropdown-item">
+                        <a href="#" class="header__navbar-dropdown-link">
+                            Трубный прокат
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <!-- +++++++++++++++++++++++++ -->
+            <li class="header__navbar-list-item">
+                <p class="header__navbar-list-title">Трубный прокат</p>
+                <!-- Dropdown -->
+                <ul class="header__navbar-dropdown">
+                    <li class="header__navbar-dropdown-item">
+                        <a href="#" class="header__navbar-dropdown-link">
+                            Трубный прокат
+                        </a>
+                    </li>
+                    <li class="header__navbar-dropdown-item">
+                        <a href="#" class="header__navbar-dropdown-link">
+                            Трубный прокат
+                        </a>
+                    </li>
+                    <li class="header__navbar-dropdown-item">
+                        <a href="#" class="header__navbar-dropdown-link">
+                            Трубный прокат
+                        </a>
+                    </li>
+                    <li class="header__navbar-dropdown-item">
+                        <a href="#" class="header__navbar-dropdown-link">
+                            Трубный прокат
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <!-- +++++++++++++++++++++++++ -->
+            <li class="header__navbar-list-item">
+                <p class="header__navbar-list-title">Фасонный прокат</p>
+                <!-- Dropdown -->
+                <ul class="header__navbar-dropdown">
+                    <li class="header__navbar-dropdown-item">
+                        <a href="#" class="header__navbar-dropdown-link">
+                            Трубный прокат
+                        </a>
+                    </li>
+                    <li class="header__navbar-dropdown-item">
+                        <a href="#" class="header__navbar-dropdown-link">
+                            Трубный прокат
+                        </a>
+                    </li>
+                    <li class="header__navbar-dropdown-item">
+                        <a href="#" class="header__navbar-dropdown-link">
+                            Трубный прокат
+                        </a>
+                    </li>
+                    <li class="header__navbar-dropdown-item">
+                        <a href="#" class="header__navbar-dropdown-link">
+                            Трубный прокат
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <!-- +++++++++++++++++++++++++ -->
+            <li class="header__navbar-list-item">
+                <p class="header__navbar-list-title">Сортовой прокат</p>
+                <!-- Dropdown -->
+                <ul class="header__navbar-dropdown">
+                    <li class="header__navbar-dropdown-item">
+                        <a href="#" class="header__navbar-dropdown-link">
+                            Трубный прокат
+                        </a>
+                    </li>
+                    <li class="header__navbar-dropdown-item">
+                        <a href="#" class="header__navbar-dropdown-link">
+                            Трубный прокат
+                        </a>
+                    </li>
+                    <li class="header__navbar-dropdown-item">
+                        <a href="#" class="header__navbar-dropdown-link">
+                            Трубный прокат
+                        </a>
+                    </li>
+                    <li class="header__navbar-dropdown-item">
+                        <a href="#" class="header__navbar-dropdown-link">
+                            Трубный прокат
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <!-- +++++++++++++++++++++++++ -->
+            <li class="header__navbar-list-item">
+                <p class="header__navbar-list-title">Нержавеющий прокат</p>
+                <!-- Dropdown -->
+                <ul class="header__navbar-dropdown">
+                    <li class="header__navbar-dropdown-item">
+                        <a href="#" class="header__navbar-dropdown-link">
+                            Трубный прокат
+                        </a>
+                    </li>
+                    <li class="header__navbar-dropdown-item">
+                        <a href="#" class="header__navbar-dropdown-link">
+                            Трубный прокат
+                        </a>
+                    </li>
+                    <li class="header__navbar-dropdown-item">
+                        <a href="#" class="header__navbar-dropdown-link">
+                            Трубный прокат
+                        </a>
+                    </li>
+                    <li class="header__navbar-dropdown-item">
+                        <a href="#" class="header__navbar-dropdown-link">
+                            Трубный прокат
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <!-- +++++++++++++++++++++++++ -->
+            <li class="header__navbar-list-item">
+                <p class="header__navbar-list-title">Алюминий и сплавы</p>
+                <!-- Dropdown -->
+                <ul class="header__navbar-dropdown">
+                    <li class="header__navbar-dropdown-item">
+                        <a href="#" class="header__navbar-dropdown-link">
+                            Трубный прокат
+                        </a>
+                    </li>
+                    <li class="header__navbar-dropdown-item">
+                        <a href="#" class="header__navbar-dropdown-link">
+                            Трубный прокат
+                        </a>
+                    </li>
+                    <li class="header__navbar-dropdown-item">
+                        <a href="#" class="header__navbar-dropdown-link">
+                            Трубный прокат
+                        </a>
+                    </li>
+                    <li class="header__navbar-dropdown-item">
+                        <a href="#" class="header__navbar-dropdown-link">
+                            Трубный прокат
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <!-- +++++++++++++++++++++++++ -->
+            <li class="header__navbar-list-item">
+                <p class="header__navbar-list-title">Медь и сплавы</p>
+                <!-- Dropdown -->
+                <ul class="header__navbar-dropdown">
+                    <li class="header__navbar-dropdown-item">
+                        <a href="#" class="header__navbar-dropdown-link">
+                            Трубный прокат
+                        </a>
+                    </li>
+                    <li class="header__navbar-dropdown-item">
+                        <a href="#" class="header__navbar-dropdown-link">
+                            Трубный прокат
+                        </a>
+                    </li>
+                    <li class="header__navbar-dropdown-item">
+                        <a href="#" class="header__navbar-dropdown-link">
+                            Трубный прокат
+                        </a>
+                    </li>
+                    <li class="header__navbar-dropdown-item">
+                        <a href="#" class="header__navbar-dropdown-link">
+                            Трубный прокат
+                        </a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</header>
+  <main>
+    <!-- Intro -->
+    <section class="intro">
+      <div class="container">
+        <!-- Services Desktop -->
+        <div class="row intro__row">
+          <div class="col-xxl-8 intro__big-col">
+            <div class="intro__big">
+              <!-- Title -->
+              <h3 class="intro__big-title">
+                Металлоснаб - <span class="intro__big-title-span"></span>
+              </h3>
+
+              <!-- Description -->
+              <p class="intro__big-desc">
+                Металлопрокат по заводским ценам. Достав|
+              </p>
+
+              <!-- Link -->
+              <a href="#" class="intro__big-link btn red">
+                ПОДРОБНЕЕ
+              </a>
+            </div>
+          </div>
+          <div class="col-xxl-4 intro__small-col">
+            <div class="intro__small">
+              <!-- Title -->
+              <h3 class="intro__small-title">
+                Доставляем металл по Красноярску и городам края
+              </h3>
+
+              <!-- Desc -->
+              <p class="intro__small-desc">
+                5 филиалов доставки по городу - забирай заказ там, где тебе удобно.
+              </p>
+
+              <!-- Link -->
+              <a href="#" class="intro__small-link">
+                Подробнее
+              </a>
+            </div>
+            <div class="intro__small">
+              <!-- Title -->
+              <h3 class="intro__small-title">
+                Доставляем металл по Красноярску и городам края
+              </h3>
+
+              <!-- Desc -->
+              <p class="intro__small-desc">
+                5 филиалов доставки по городу - забирай заказ там, где тебе удобно.
+              </p>
+
+              <!-- Link -->
+              <a href="#" class="intro__small-link">
+                Подробнее
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Mobile Slider -->
+      <div class="swiper intro__slider">
+        <div class="swiper-wrapper">
+          <!-- +++++++++++++++++ -->
+          <div class="swiper-slide">
+            <div class="intro__slider-slide">
+              <!-- Title -->
+              <h3 class="intro__slider-slide-title">
+                Металлоснаб - компания комплексного металлоснабжения
+              </h3>
+
+              <!-- Desc -->
+              <p class="intro__slider-slide-desc">
+                Металлопрокат по заводским ценам. Достав|
+              </p>
+
+              <!-- Link -->
+              <a href="#" class="intro__slider-slide-link btn red">
+                ПОДРОБНЕЕ
+              </a>
+            </div>
+          </div>
+          <!-- +++++++++++++++++ -->
+          <div class="swiper-slide">
+            <div class="intro__slider-slide">
+              <!-- Title -->
+              <h3 class="intro__slider-slide-title">
+                Металлоснаб - компания комплексного металлоснабжения
+              </h3>
+
+              <!-- Desc -->
+              <p class="intro__slider-slide-desc">
+                Металлопрокат по заводским ценам. Достав|
+              </p>
+
+              <!-- Link -->
+              <a href="#" class="intro__slider-slide-link btn red">
+                ПОДРОБНЕЕ
+              </a>
+            </div>
+          </div>
+          <!-- +++++++++++++++++ -->
+          <div class="swiper-slide">
+            <div class="intro__slider-slide">
+              <!-- Title -->
+              <h3 class="intro__slider-slide-title">
+                Металлоснаб - компания комплексного металлоснабжения
+              </h3>
+
+              <!-- Desc -->
+              <p class="intro__slider-slide-desc">
+                Металлопрокат по заводским ценам. Достав|
+              </p>
+
+              <!-- Link -->
+              <a href="#" class="intro__slider-slide-link btn red">
+                ПОДРОБНЕЕ
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="intro__slider-pagination"></div>
+    </section>
+
+    <!-- Tricker -->
+    <section class="ticker">
+      <div class="ticker__scroll">
+        <ul class="ticker__list">
+          <li class="ticker__txt">
+            Lorem ipsum is placeholder text commonly used in the graphic
+          </li>
+          <li class="ticker__txt">
+            Lorem ipsum is placeholder text commonly used in the graphic
+          </li>
+          <li class="ticker__txt">
+            Lorem ipsum is placeholder text commonly used in the graphic
+          </li>
+        </ul>
+        <ul class="ticker__list">
+          <li class="ticker__txt">
+            Lorem ipsum is placeholder text commonly used in the graphic
+          </li>
+          <li class="ticker__txt">
+            Lorem ipsum is placeholder text commonly used in the graphic
+          </li>
+          <li class="ticker__txt">
+            Lorem ipsum is placeholder text commonly used in the graphic
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Advantages -->
+    <section class="advantages">
+    <div class="advantages__container container">
+        <div class="advantages__row">
+            <div class="advantages__col">
+                <div class="advantage">
+                    <!-- Icon -->
+                    <div class="advantage__icon">
+                        <img src="images/icons/adv-1.svg" alt="">
+                    </div>
+                    <!-- Title -->
+                    <h3 class="advantage__title">Постоянное наличие на складе</h3>
+                </div>
+            </div>
+            <div class="advantages__col">
+                <div class="advantage">
+                    <!-- Icon -->
+                    <div class="advantage__icon">
+                        <img src="images/icons/adv-1.svg" alt="">
+                    </div>
+                    <!-- Title -->
+                    <h3 class="advantage__title">Постоянное наличие на складе</h3>
+                </div>
+            </div>
+            <div class="advantages__col">
+                <div class="advantage">
+                    <!-- Icon -->
+                    <div class="advantage__icon">
+                        <img src="images/icons/adv-1.svg" alt="">
+                    </div>
+                    <!-- Title -->
+                    <h3 class="advantage__title">Постоянное наличие на складе</h3>
+                </div>
+            </div>
+            <div class="advantages__col">
+                <div class="advantage">
+                    <!-- Icon -->
+                    <div class="advantage__icon">
+                        <img src="images/icons/adv-1.svg" alt="">
+                    </div>
+                    <!-- Title -->
+                    <h3 class="advantage__title">Постоянное наличие на складе</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Catalog -->
+    <section class="catalog__section section__items">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section__header">
+          <!-- Title -->
+          <h3 class="section__header-title">Разделы каталога</h3>
+
+          <!-- toolbar -->
+          <div class="section__header-toolbar">
+            <!-- Slider Buttons -->
+            <div class="section__header-slider-btns">
+              <button id="catalog__slider-prev" class="section__header-slider-btn section__header-slider-btn-left">
+                <i class="i-arrow-left"></i>
+              </button>
+              <button id="catalog__slider-next" class="section__header-slider-btn section__header-slider-btn-right">
+                <i class="i-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- Slider -->
+        <div class="swiper catalog__slider section__items-slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="catalog">
+    <div class="catalog__header">
+        <h3 class="catalog__title">Листовой металлопрокат</h3>
+    </div>
+    <div class="catalog__body">
+        <ul class="catalog__menu">
+            <li class="catalog__menu-item">
+                <a href="" class="catalog__menu-link">Прокат листовой горячекатанный</a>
+            </li>
+            <li class="catalog__menu-item">
+                <a href="" class="catalog__menu-link">Прокат листовой горячекатанный</a>
+            </li>
+            <li class="catalog__menu-item">
+                <a href="" class="catalog__menu-link">Прокат листовой горячекатанный</a>
+            </li>
+            <li class="catalog__menu-item">
+                <a href="" class="catalog__menu-link">Прокат листовой горячекатанный</a>
+            </li>
+            <li class="catalog__menu-item">
+                <a href="" class="catalog__menu-link">Прокат листовой горячекатанный</a>
+            </li>
+            <li class="catalog__menu-item">
+                <a href="" class="catalog__menu-link">Прокат листовой горячекатанный</a>
+            </li>
+            <li class="catalog__menu-item">
+                <a href="" class="catalog__menu-link">Прокат листовой горячекатанный</a>
+            </li>
+            <li class="catalog__menu-item">
+                <a href="" class="catalog__menu-link">Прокат листовой горячекатанный</a>
+            </li>
+            <li class="catalog__menu-item">
+                <a href="" class="catalog__menu-link">Прокат листовой горячекатанный</a>
+            </li>
+            <li class="catalog__menu-item">
+                <a href="" class="catalog__menu-link">Прокат листовой горячекатанный</a>
+            </li>
+        </ul>
+    </div>
+</div>
+            </div>
+            <div class="swiper-slide">
+              <div class="catalog">
+    <div class="catalog__header">
+        <h3 class="catalog__title">Листовой металлопрокат</h3>
+    </div>
+    <div class="catalog__body">
+        <ul class="catalog__menu">
+            <li class="catalog__menu-item">
+                <a href="" class="catalog__menu-link">Прокат листовой горячекатанный</a>
+            </li>
+            <li class="catalog__menu-item">
+                <a href="" class="catalog__menu-link">Прокат листовой горячекатанный</a>
+            </li>
+            <li class="catalog__menu-item">
+                <a href="" class="catalog__menu-link">Прокат листовой горячекатанный</a>
+            </li>
+            <li class="catalog__menu-item">
+                <a href="" class="catalog__menu-link">Прокат листовой горячекатанный</a>
+            </li>
+            <li class="catalog__menu-item">
+                <a href="" class="catalog__menu-link">Прокат листовой горячекатанный</a>
+            </li>
+            <li class="catalog__menu-item">
+                <a href="" class="catalog__menu-link">Прокат листовой горячекатанный</a>
+            </li>
+            <li class="catalog__menu-item">
+                <a href="" class="catalog__menu-link">Прокат листовой горячекатанный</a>
+            </li>
+            <li class="catalog__menu-item">
+                <a href="" class="catalog__menu-link">Прокат листовой горячекатанный</a>
+            </li>
+            <li class="catalog__menu-item">
+                <a href="" class="catalog__menu-link">Прокат листовой горячекатанный</a>
+            </li>
+            <li class="catalog__menu-item">
+                <a href="" class="catalog__menu-link">Прокат листовой горячекатанный</a>
+            </li>
+        </ul>
+    </div>
+</div>
+            </div>
+            <div class="swiper-slide">
+              <div class="catalog">
+    <div class="catalog__header">
+        <h3 class="catalog__title">Листовой металлопрокат</h3>
+    </div>
+    <div class="catalog__body">
+        <ul class="catalog__menu">
+            <li class="catalog__menu-item">
+                <a href="" class="catalog__menu-link">Прокат листовой горячекатанный</a>
+            </li>
+            <li class="catalog__menu-item">
+                <a href="" class="catalog__menu-link">Прокат листовой горячекатанный</a>
+            </li>
+            <li class="catalog__menu-item">
+                <a href="" class="catalog__menu-link">Прокат листовой горячекатанный</a>
+            </li>
+            <li class="catalog__menu-item">
+                <a href="" class="catalog__menu-link">Прокат листовой горячекатанный</a>
+            </li>
+            <li class="catalog__menu-item">
+                <a href="" class="catalog__menu-link">Прокат листовой горячекатанный</a>
+            </li>
+            <li class="catalog__menu-item">
+                <a href="" class="catalog__menu-link">Прокат листовой горячекатанный</a>
+            </li>
+            <li class="catalog__menu-item">
+                <a href="" class="catalog__menu-link">Прокат листовой горячекатанный</a>
+            </li>
+            <li class="catalog__menu-item">
+                <a href="" class="catalog__menu-link">Прокат листовой горячекатанный</a>
+            </li>
+            <li class="catalog__menu-item">
+                <a href="" class="catalog__menu-link">Прокат листовой горячекатанный</a>
+            </li>
+            <li class="catalog__menu-item">
+                <a href="" class="catalog__menu-link">Прокат листовой горячекатанный</a>
+            </li>
+        </ul>
+    </div>
+</div>
+            </div>
+            <div class="swiper-slide">
+              <div class="catalog">
+    <div class="catalog__header">
+        <h3 class="catalog__title">Листовой металлопрокат</h3>
+    </div>
+    <div class="catalog__body">
+        <ul class="catalog__menu">
+            <li class="catalog__menu-item">
+                <a href="" class="catalog__menu-link">Прокат листовой горячекатанный</a>
+            </li>
+            <li class="catalog__menu-item">
+                <a href="" class="catalog__menu-link">Прокат листовой горячекатанный</a>
+            </li>
+            <li class="catalog__menu-item">
+                <a href="" class="catalog__menu-link">Прокат листовой горячекатанный</a>
+            </li>
+            <li class="catalog__menu-item">
+                <a href="" class="catalog__menu-link">Прокат листовой горячекатанный</a>
+            </li>
+            <li class="catalog__menu-item">
+                <a href="" class="catalog__menu-link">Прокат листовой горячекатанный</a>
+            </li>
+            <li class="catalog__menu-item">
+                <a href="" class="catalog__menu-link">Прокат листовой горячекатанный</a>
+            </li>
+            <li class="catalog__menu-item">
+                <a href="" class="catalog__menu-link">Прокат листовой горячекатанный</a>
+            </li>
+            <li class="catalog__menu-item">
+                <a href="" class="catalog__menu-link">Прокат листовой горячекатанный</a>
+            </li>
+            <li class="catalog__menu-item">
+                <a href="" class="catalog__menu-link">Прокат листовой горячекатанный</a>
+            </li>
+            <li class="catalog__menu-item">
+                <a href="" class="catalog__menu-link">Прокат листовой горячекатанный</a>
+            </li>
+        </ul>
+    </div>
+</div>
+            </div>
+            <div class="swiper-slide">
+              <div class="catalog">
+    <div class="catalog__header">
+        <h3 class="catalog__title">Листовой металлопрокат</h3>
+    </div>
+    <div class="catalog__body">
+        <ul class="catalog__menu">
+            <li class="catalog__menu-item">
+                <a href="" class="catalog__menu-link">Прокат листовой горячекатанный</a>
+            </li>
+            <li class="catalog__menu-item">
+                <a href="" class="catalog__menu-link">Прокат листовой горячекатанный</a>
+            </li>
+            <li class="catalog__menu-item">
+                <a href="" class="catalog__menu-link">Прокат листовой горячекатанный</a>
+            </li>
+            <li class="catalog__menu-item">
+                <a href="" class="catalog__menu-link">Прокат листовой горячекатанный</a>
+            </li>
+            <li class="catalog__menu-item">
+                <a href="" class="catalog__menu-link">Прокат листовой горячекатанный</a>
+            </li>
+            <li class="catalog__menu-item">
+                <a href="" class="catalog__menu-link">Прокат листовой горячекатанный</a>
+            </li>
+            <li class="catalog__menu-item">
+                <a href="" class="catalog__menu-link">Прокат листовой горячекатанный</a>
+            </li>
+            <li class="catalog__menu-item">
+                <a href="" class="catalog__menu-link">Прокат листовой горячекатанный</a>
+            </li>
+            <li class="catalog__menu-item">
+                <a href="" class="catalog__menu-link">Прокат листовой горячекатанный</a>
+            </li>
+            <li class="catalog__menu-item">
+                <a href="" class="catalog__menu-link">Прокат листовой горячекатанный</a>
+            </li>
+        </ul>
+    </div>
+</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Promo Products -->
+    <section class="promo__section section__items">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section__header">
+          <!-- Title -->
+          <h3 class="section__header-title">Акционные товары</h3>
+
+          <!-- toolbar -->
+          <div class="section__header-toolbar">
+            <!-- Link -->
+            <a href="" class="section__header-link btn grey border-no grey-border">Посмотреть все акционные товары</a>
+            <!-- Slider Buttons -->
+            <div class="section__header-slider-btns">
+              <button id="promo-slider-prev" class="section__header-slider-btn section__header-slider-btn-left">
+                <i class="i-arrow-left"></i>
+              </button>
+              <button id="promo-slider-next" class="section__header-slider-btn section__header-slider-btn-right">
+                <i class="i-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- Slider -->
+        <div class="swiper promo__slider section__items-slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="product sale">
+    <!-- Image -->
+    <a href="" class="product__header">
+        <span class="product__promo">Акция</span>
+        <picture><source srcset="images/pro.webp" type="image/webp"><img src="images/pro.png" alt="" class="product__img"></picture>
+    </a>
+    <!-- Title -->
+    <a href="#">
+        <h3 class="product__title"> Арматура 6 бухта А-III 25Г2С </h3>
+    </a>
+    <!-- Character -->
+    <ul class="product__character">
+        <li class="product__character-item">
+            <!-- Name -->
+            <p class="product__character-name">Длина (м):</p>
+            <!-- Line -->
+            <div class="product__character-line"></div>
+            <!-- Value -->
+            <p class="product__character-value">10</p>
+        </li>
+        <li class="product__character-item">
+            <!-- Name -->
+            <p class="product__character-name">Диаметр (мм):</p>
+            <!-- Line -->
+            <div class="product__character-line"></div>
+            <!-- Value -->
+            <p class="product__character-value">10</p>
+        </li>
+        <li class="product__character-item">
+            <!-- Name -->
+            <p class="product__character-name">Марка стали:</p>
+            <!-- Line -->
+            <div class="product__character-line"></div>
+            <!-- Value -->
+            <p class="product__character-value">40 хн</p>
+        </li>
+        <li class="product__character-item">
+            <!-- Name -->
+            <p class="product__character-name">ГОСТ:</p>
+            <!-- Line -->
+            <div class="product__character-line"></div>
+            <!-- Value -->
+            <p class="product__character-value">7417-75</p>
+        </li>
+    </ul>
+    <!-- Price -->
+    <div class="product__price">
+        <!-- Promo Price -->
+        <p class="product__price-bold">от 60 000 ₽/тонна</p>
+        <!-- Original Price -->
+        <del class="product__price-del">от 100 000 ₽</del>
+    </div>
+    <!-- Footer -->
+    <form class="product__footer">
+        <!-- To Basket -->
+        <button type="submit" class="product__order btn red">
+            <i class="i-basket"></i>
+            <p>В КОРЗИНУ</p>
+        </button>
+        <!-- Counter -->
+        <div class="product__counters">
+            <button type="button" disabled class="product__minus product__counters-item">-</button>
+            <input type="text" class="product__count product__counters-item" value="3">
+            <button type="button" class="product__plus product__counters-item">+</button>
+        </div>
+    </form>
+</div>
+            </div>
+            <div class="swiper-slide">
+              <div class="product sale">
+    <!-- Image -->
+    <a href="" class="product__header">
+        <span class="product__promo">Акция</span>
+        <picture><source srcset="images/pro.webp" type="image/webp"><img src="images/pro.png" alt="" class="product__img"></picture>
+    </a>
+    <!-- Title -->
+    <a href="#">
+        <h3 class="product__title"> Арматура 6 бухта А-III 25Г2С </h3>
+    </a>
+    <!-- Character -->
+    <ul class="product__character">
+        <li class="product__character-item">
+            <!-- Name -->
+            <p class="product__character-name">Длина (м):</p>
+            <!-- Line -->
+            <div class="product__character-line"></div>
+            <!-- Value -->
+            <p class="product__character-value">10</p>
+        </li>
+        <li class="product__character-item">
+            <!-- Name -->
+            <p class="product__character-name">Диаметр (мм):</p>
+            <!-- Line -->
+            <div class="product__character-line"></div>
+            <!-- Value -->
+            <p class="product__character-value">10</p>
+        </li>
+        <li class="product__character-item">
+            <!-- Name -->
+            <p class="product__character-name">Марка стали:</p>
+            <!-- Line -->
+            <div class="product__character-line"></div>
+            <!-- Value -->
+            <p class="product__character-value">40 хн</p>
+        </li>
+        <li class="product__character-item">
+            <!-- Name -->
+            <p class="product__character-name">ГОСТ:</p>
+            <!-- Line -->
+            <div class="product__character-line"></div>
+            <!-- Value -->
+            <p class="product__character-value">7417-75</p>
+        </li>
+    </ul>
+    <!-- Price -->
+    <div class="product__price">
+        <!-- Promo Price -->
+        <p class="product__price-bold">от 60 000 ₽/тонна</p>
+        <!-- Original Price -->
+        <del class="product__price-del">от 100 000 ₽</del>
+    </div>
+    <!-- Footer -->
+    <form class="product__footer">
+        <!-- To Basket -->
+        <button type="submit" class="product__order btn red">
+            <i class="i-basket"></i>
+            <p>В КОРЗИНУ</p>
+        </button>
+        <!-- Counter -->
+        <div class="product__counters">
+            <button type="button" disabled class="product__minus product__counters-item">-</button>
+            <input type="text" class="product__count product__counters-item" value="3">
+            <button type="button" class="product__plus product__counters-item">+</button>
+        </div>
+    </form>
+</div>
+            </div>
+            <div class="swiper-slide">
+              <div class="product sale">
+    <!-- Image -->
+    <a href="" class="product__header">
+        <span class="product__promo">Акция</span>
+        <picture><source srcset="images/pro.webp" type="image/webp"><img src="images/pro.png" alt="" class="product__img"></picture>
+    </a>
+    <!-- Title -->
+    <a href="#">
+        <h3 class="product__title"> Арматура 6 бухта А-III 25Г2С </h3>
+    </a>
+    <!-- Character -->
+    <ul class="product__character">
+        <li class="product__character-item">
+            <!-- Name -->
+            <p class="product__character-name">Длина (м):</p>
+            <!-- Line -->
+            <div class="product__character-line"></div>
+            <!-- Value -->
+            <p class="product__character-value">10</p>
+        </li>
+        <li class="product__character-item">
+            <!-- Name -->
+            <p class="product__character-name">Диаметр (мм):</p>
+            <!-- Line -->
+            <div class="product__character-line"></div>
+            <!-- Value -->
+            <p class="product__character-value">10</p>
+        </li>
+        <li class="product__character-item">
+            <!-- Name -->
+            <p class="product__character-name">Марка стали:</p>
+            <!-- Line -->
+            <div class="product__character-line"></div>
+            <!-- Value -->
+            <p class="product__character-value">40 хн</p>
+        </li>
+        <li class="product__character-item">
+            <!-- Name -->
+            <p class="product__character-name">ГОСТ:</p>
+            <!-- Line -->
+            <div class="product__character-line"></div>
+            <!-- Value -->
+            <p class="product__character-value">7417-75</p>
+        </li>
+    </ul>
+    <!-- Price -->
+    <div class="product__price">
+        <!-- Promo Price -->
+        <p class="product__price-bold">от 60 000 ₽/тонна</p>
+        <!-- Original Price -->
+        <del class="product__price-del">от 100 000 ₽</del>
+    </div>
+    <!-- Footer -->
+    <form class="product__footer">
+        <!-- To Basket -->
+        <button type="submit" class="product__order btn red">
+            <i class="i-basket"></i>
+            <p>В КОРЗИНУ</p>
+        </button>
+        <!-- Counter -->
+        <div class="product__counters">
+            <button type="button" disabled class="product__minus product__counters-item">-</button>
+            <input type="text" class="product__count product__counters-item" value="3">
+            <button type="button" class="product__plus product__counters-item">+</button>
+        </div>
+    </form>
+</div>
+            </div>
+            <div class="swiper-slide">
+              <div class="product sale">
+    <!-- Image -->
+    <a href="" class="product__header">
+        <span class="product__promo">Акция</span>
+        <picture><source srcset="images/pro.webp" type="image/webp"><img src="images/pro.png" alt="" class="product__img"></picture>
+    </a>
+    <!-- Title -->
+    <a href="#">
+        <h3 class="product__title"> Арматура 6 бухта А-III 25Г2С </h3>
+    </a>
+    <!-- Character -->
+    <ul class="product__character">
+        <li class="product__character-item">
+            <!-- Name -->
+            <p class="product__character-name">Длина (м):</p>
+            <!-- Line -->
+            <div class="product__character-line"></div>
+            <!-- Value -->
+            <p class="product__character-value">10</p>
+        </li>
+        <li class="product__character-item">
+            <!-- Name -->
+            <p class="product__character-name">Диаметр (мм):</p>
+            <!-- Line -->
+            <div class="product__character-line"></div>
+            <!-- Value -->
+            <p class="product__character-value">10</p>
+        </li>
+        <li class="product__character-item">
+            <!-- Name -->
+            <p class="product__character-name">Марка стали:</p>
+            <!-- Line -->
+            <div class="product__character-line"></div>
+            <!-- Value -->
+            <p class="product__character-value">40 хн</p>
+        </li>
+        <li class="product__character-item">
+            <!-- Name -->
+            <p class="product__character-name">ГОСТ:</p>
+            <!-- Line -->
+            <div class="product__character-line"></div>
+            <!-- Value -->
+            <p class="product__character-value">7417-75</p>
+        </li>
+    </ul>
+    <!-- Price -->
+    <div class="product__price">
+        <!-- Promo Price -->
+        <p class="product__price-bold">от 60 000 ₽/тонна</p>
+        <!-- Original Price -->
+        <del class="product__price-del">от 100 000 ₽</del>
+    </div>
+    <!-- Footer -->
+    <form class="product__footer">
+        <!-- To Basket -->
+        <button type="submit" class="product__order btn red">
+            <i class="i-basket"></i>
+            <p>В КОРЗИНУ</p>
+        </button>
+        <!-- Counter -->
+        <div class="product__counters">
+            <button type="button" disabled class="product__minus product__counters-item">-</button>
+            <input type="text" class="product__count product__counters-item" value="3">
+            <button type="button" class="product__plus product__counters-item">+</button>
+        </div>
+    </form>
+</div>
+            </div>
+            <div class="swiper-slide">
+              <div class="product sale">
+    <!-- Image -->
+    <a href="" class="product__header">
+        <span class="product__promo">Акция</span>
+        <picture><source srcset="images/pro.webp" type="image/webp"><img src="images/pro.png" alt="" class="product__img"></picture>
+    </a>
+    <!-- Title -->
+    <a href="#">
+        <h3 class="product__title"> Арматура 6 бухта А-III 25Г2С </h3>
+    </a>
+    <!-- Character -->
+    <ul class="product__character">
+        <li class="product__character-item">
+            <!-- Name -->
+            <p class="product__character-name">Длина (м):</p>
+            <!-- Line -->
+            <div class="product__character-line"></div>
+            <!-- Value -->
+            <p class="product__character-value">10</p>
+        </li>
+        <li class="product__character-item">
+            <!-- Name -->
+            <p class="product__character-name">Диаметр (мм):</p>
+            <!-- Line -->
+            <div class="product__character-line"></div>
+            <!-- Value -->
+            <p class="product__character-value">10</p>
+        </li>
+        <li class="product__character-item">
+            <!-- Name -->
+            <p class="product__character-name">Марка стали:</p>
+            <!-- Line -->
+            <div class="product__character-line"></div>
+            <!-- Value -->
+            <p class="product__character-value">40 хн</p>
+        </li>
+        <li class="product__character-item">
+            <!-- Name -->
+            <p class="product__character-name">ГОСТ:</p>
+            <!-- Line -->
+            <div class="product__character-line"></div>
+            <!-- Value -->
+            <p class="product__character-value">7417-75</p>
+        </li>
+    </ul>
+    <!-- Price -->
+    <div class="product__price">
+        <!-- Promo Price -->
+        <p class="product__price-bold">от 60 000 ₽/тонна</p>
+        <!-- Original Price -->
+        <del class="product__price-del">от 100 000 ₽</del>
+    </div>
+    <!-- Footer -->
+    <form class="product__footer">
+        <!-- To Basket -->
+        <button type="submit" class="product__order btn red">
+            <i class="i-basket"></i>
+            <p>В КОРЗИНУ</p>
+        </button>
+        <!-- Counter -->
+        <div class="product__counters">
+            <button type="button" disabled class="product__minus product__counters-item">-</button>
+            <input type="text" class="product__count product__counters-item" value="3">
+            <button type="button" class="product__plus product__counters-item">+</button>
+        </div>
+    </form>
+</div>
+            </div>
+          </div>
+          <!-- Mobile Progress -->
+          <div class="promo__slider-pagination section__items-progress swiper-pagination"></div>
+        </div>
+        <!-- View All -->
+        <a href="#" class="section__items-view btn grey border-no grey-border">Посмотреть все</a>
+      </div>
+    </section>
+
+    <!-- Popular Products -->
+    <section class="popular__section section__items">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section__header">
+          <!-- Title -->
+          <h3 class="section__header-title">Популярные товары</h3>
+
+          <!-- toolbar -->
+          <div class="section__header-toolbar">
+            <!-- Slider Buttons -->
+            <div class="section__header-slider-btns">
+              <button id="popular-slider-prev" class="section__header-slider-btn section__header-slider-btn-left">
+                <i class="i-arrow-left"></i>
+              </button>
+              <button id="popular-slider-next" class="section__header-slider-btn section__header-slider-btn-right">
+                <i class="i-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- Slider -->
+        <div class="swiper popular__slider section__items-slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="product sale">
+    <!-- Image -->
+    <a href="" class="product__header">
+        <span class="product__promo">Акция</span>
+        <picture><source srcset="images/pro.webp" type="image/webp"><img src="images/pro.png" alt="" class="product__img"></picture>
+    </a>
+    <!-- Title -->
+    <a href="#">
+        <h3 class="product__title"> Арматура 6 бухта А-III 25Г2С </h3>
+    </a>
+    <!-- Character -->
+    <ul class="product__character">
+        <li class="product__character-item">
+            <!-- Name -->
+            <p class="product__character-name">Длина (м):</p>
+            <!-- Line -->
+            <div class="product__character-line"></div>
+            <!-- Value -->
+            <p class="product__character-value">10</p>
+        </li>
+        <li class="product__character-item">
+            <!-- Name -->
+            <p class="product__character-name">Диаметр (мм):</p>
+            <!-- Line -->
+            <div class="product__character-line"></div>
+            <!-- Value -->
+            <p class="product__character-value">10</p>
+        </li>
+        <li class="product__character-item">
+            <!-- Name -->
+            <p class="product__character-name">Марка стали:</p>
+            <!-- Line -->
+            <div class="product__character-line"></div>
+            <!-- Value -->
+            <p class="product__character-value">40 хн</p>
+        </li>
+        <li class="product__character-item">
+            <!-- Name -->
+            <p class="product__character-name">ГОСТ:</p>
+            <!-- Line -->
+            <div class="product__character-line"></div>
+            <!-- Value -->
+            <p class="product__character-value">7417-75</p>
+        </li>
+    </ul>
+    <!-- Price -->
+    <div class="product__price">
+        <!-- Promo Price -->
+        <p class="product__price-bold">от 60 000 ₽/тонна</p>
+        <!-- Original Price -->
+        <del class="product__price-del">от 100 000 ₽</del>
+    </div>
+    <!-- Footer -->
+    <form class="product__footer">
+        <!-- To Basket -->
+        <button type="submit" class="product__order btn red">
+            <i class="i-basket"></i>
+            <p>В КОРЗИНУ</p>
+        </button>
+        <!-- Counter -->
+        <div class="product__counters">
+            <button type="button" disabled class="product__minus product__counters-item">-</button>
+            <input type="text" class="product__count product__counters-item" value="3">
+            <button type="button" class="product__plus product__counters-item">+</button>
+        </div>
+    </form>
+</div>
+            </div>
+            <div class="swiper-slide">
+              <div class="product sale">
+    <!-- Image -->
+    <a href="" class="product__header">
+        <span class="product__promo">Акция</span>
+        <picture><source srcset="images/pro.webp" type="image/webp"><img src="images/pro.png" alt="" class="product__img"></picture>
+    </a>
+    <!-- Title -->
+    <a href="#">
+        <h3 class="product__title"> Арматура 6 бухта А-III 25Г2С </h3>
+    </a>
+    <!-- Character -->
+    <ul class="product__character">
+        <li class="product__character-item">
+            <!-- Name -->
+            <p class="product__character-name">Длина (м):</p>
+            <!-- Line -->
+            <div class="product__character-line"></div>
+            <!-- Value -->
+            <p class="product__character-value">10</p>
+        </li>
+        <li class="product__character-item">
+            <!-- Name -->
+            <p class="product__character-name">Диаметр (мм):</p>
+            <!-- Line -->
+            <div class="product__character-line"></div>
+            <!-- Value -->
+            <p class="product__character-value">10</p>
+        </li>
+        <li class="product__character-item">
+            <!-- Name -->
+            <p class="product__character-name">Марка стали:</p>
+            <!-- Line -->
+            <div class="product__character-line"></div>
+            <!-- Value -->
+            <p class="product__character-value">40 хн</p>
+        </li>
+        <li class="product__character-item">
+            <!-- Name -->
+            <p class="product__character-name">ГОСТ:</p>
+            <!-- Line -->
+            <div class="product__character-line"></div>
+            <!-- Value -->
+            <p class="product__character-value">7417-75</p>
+        </li>
+    </ul>
+    <!-- Price -->
+    <div class="product__price">
+        <!-- Promo Price -->
+        <p class="product__price-bold">от 60 000 ₽/тонна</p>
+        <!-- Original Price -->
+        <del class="product__price-del">от 100 000 ₽</del>
+    </div>
+    <!-- Footer -->
+    <form class="product__footer">
+        <!-- To Basket -->
+        <button type="submit" class="product__order btn red">
+            <i class="i-basket"></i>
+            <p>В КОРЗИНУ</p>
+        </button>
+        <!-- Counter -->
+        <div class="product__counters">
+            <button type="button" disabled class="product__minus product__counters-item">-</button>
+            <input type="text" class="product__count product__counters-item" value="3">
+            <button type="button" class="product__plus product__counters-item">+</button>
+        </div>
+    </form>
+</div>
+            </div>
+            <div class="swiper-slide">
+              <div class="product sale">
+    <!-- Image -->
+    <a href="" class="product__header">
+        <span class="product__promo">Акция</span>
+        <picture><source srcset="images/pro.webp" type="image/webp"><img src="images/pro.png" alt="" class="product__img"></picture>
+    </a>
+    <!-- Title -->
+    <a href="#">
+        <h3 class="product__title"> Арматура 6 бухта А-III 25Г2С </h3>
+    </a>
+    <!-- Character -->
+    <ul class="product__character">
+        <li class="product__character-item">
+            <!-- Name -->
+            <p class="product__character-name">Длина (м):</p>
+            <!-- Line -->
+            <div class="product__character-line"></div>
+            <!-- Value -->
+            <p class="product__character-value">10</p>
+        </li>
+        <li class="product__character-item">
+            <!-- Name -->
+            <p class="product__character-name">Диаметр (мм):</p>
+            <!-- Line -->
+            <div class="product__character-line"></div>
+            <!-- Value -->
+            <p class="product__character-value">10</p>
+        </li>
+        <li class="product__character-item">
+            <!-- Name -->
+            <p class="product__character-name">Марка стали:</p>
+            <!-- Line -->
+            <div class="product__character-line"></div>
+            <!-- Value -->
+            <p class="product__character-value">40 хн</p>
+        </li>
+        <li class="product__character-item">
+            <!-- Name -->
+            <p class="product__character-name">ГОСТ:</p>
+            <!-- Line -->
+            <div class="product__character-line"></div>
+            <!-- Value -->
+            <p class="product__character-value">7417-75</p>
+        </li>
+    </ul>
+    <!-- Price -->
+    <div class="product__price">
+        <!-- Promo Price -->
+        <p class="product__price-bold">от 60 000 ₽/тонна</p>
+        <!-- Original Price -->
+        <del class="product__price-del">от 100 000 ₽</del>
+    </div>
+    <!-- Footer -->
+    <form class="product__footer">
+        <!-- To Basket -->
+        <button type="submit" class="product__order btn red">
+            <i class="i-basket"></i>
+            <p>В КОРЗИНУ</p>
+        </button>
+        <!-- Counter -->
+        <div class="product__counters">
+            <button type="button" disabled class="product__minus product__counters-item">-</button>
+            <input type="text" class="product__count product__counters-item" value="3">
+            <button type="button" class="product__plus product__counters-item">+</button>
+        </div>
+    </form>
+</div>
+            </div>
+            <div class="swiper-slide">
+              <div class="product sale">
+    <!-- Image -->
+    <a href="" class="product__header">
+        <span class="product__promo">Акция</span>
+        <picture><source srcset="images/pro.webp" type="image/webp"><img src="images/pro.png" alt="" class="product__img"></picture>
+    </a>
+    <!-- Title -->
+    <a href="#">
+        <h3 class="product__title"> Арматура 6 бухта А-III 25Г2С </h3>
+    </a>
+    <!-- Character -->
+    <ul class="product__character">
+        <li class="product__character-item">
+            <!-- Name -->
+            <p class="product__character-name">Длина (м):</p>
+            <!-- Line -->
+            <div class="product__character-line"></div>
+            <!-- Value -->
+            <p class="product__character-value">10</p>
+        </li>
+        <li class="product__character-item">
+            <!-- Name -->
+            <p class="product__character-name">Диаметр (мм):</p>
+            <!-- Line -->
+            <div class="product__character-line"></div>
+            <!-- Value -->
+            <p class="product__character-value">10</p>
+        </li>
+        <li class="product__character-item">
+            <!-- Name -->
+            <p class="product__character-name">Марка стали:</p>
+            <!-- Line -->
+            <div class="product__character-line"></div>
+            <!-- Value -->
+            <p class="product__character-value">40 хн</p>
+        </li>
+        <li class="product__character-item">
+            <!-- Name -->
+            <p class="product__character-name">ГОСТ:</p>
+            <!-- Line -->
+            <div class="product__character-line"></div>
+            <!-- Value -->
+            <p class="product__character-value">7417-75</p>
+        </li>
+    </ul>
+    <!-- Price -->
+    <div class="product__price">
+        <!-- Promo Price -->
+        <p class="product__price-bold">от 60 000 ₽/тонна</p>
+        <!-- Original Price -->
+        <del class="product__price-del">от 100 000 ₽</del>
+    </div>
+    <!-- Footer -->
+    <form class="product__footer">
+        <!-- To Basket -->
+        <button type="submit" class="product__order btn red">
+            <i class="i-basket"></i>
+            <p>В КОРЗИНУ</p>
+        </button>
+        <!-- Counter -->
+        <div class="product__counters">
+            <button type="button" disabled class="product__minus product__counters-item">-</button>
+            <input type="text" class="product__count product__counters-item" value="3">
+            <button type="button" class="product__plus product__counters-item">+</button>
+        </div>
+    </form>
+</div>
+            </div>
+            <div class="swiper-slide">
+              <div class="product sale">
+    <!-- Image -->
+    <a href="" class="product__header">
+        <span class="product__promo">Акция</span>
+        <picture><source srcset="images/pro.webp" type="image/webp"><img src="images/pro.png" alt="" class="product__img"></picture>
+    </a>
+    <!-- Title -->
+    <a href="#">
+        <h3 class="product__title"> Арматура 6 бухта А-III 25Г2С </h3>
+    </a>
+    <!-- Character -->
+    <ul class="product__character">
+        <li class="product__character-item">
+            <!-- Name -->
+            <p class="product__character-name">Длина (м):</p>
+            <!-- Line -->
+            <div class="product__character-line"></div>
+            <!-- Value -->
+            <p class="product__character-value">10</p>
+        </li>
+        <li class="product__character-item">
+            <!-- Name -->
+            <p class="product__character-name">Диаметр (мм):</p>
+            <!-- Line -->
+            <div class="product__character-line"></div>
+            <!-- Value -->
+            <p class="product__character-value">10</p>
+        </li>
+        <li class="product__character-item">
+            <!-- Name -->
+            <p class="product__character-name">Марка стали:</p>
+            <!-- Line -->
+            <div class="product__character-line"></div>
+            <!-- Value -->
+            <p class="product__character-value">40 хн</p>
+        </li>
+        <li class="product__character-item">
+            <!-- Name -->
+            <p class="product__character-name">ГОСТ:</p>
+            <!-- Line -->
+            <div class="product__character-line"></div>
+            <!-- Value -->
+            <p class="product__character-value">7417-75</p>
+        </li>
+    </ul>
+    <!-- Price -->
+    <div class="product__price">
+        <!-- Promo Price -->
+        <p class="product__price-bold">от 60 000 ₽/тонна</p>
+        <!-- Original Price -->
+        <del class="product__price-del">от 100 000 ₽</del>
+    </div>
+    <!-- Footer -->
+    <form class="product__footer">
+        <!-- To Basket -->
+        <button type="submit" class="product__order btn red">
+            <i class="i-basket"></i>
+            <p>В КОРЗИНУ</p>
+        </button>
+        <!-- Counter -->
+        <div class="product__counters">
+            <button type="button" disabled class="product__minus product__counters-item">-</button>
+            <input type="text" class="product__count product__counters-item" value="3">
+            <button type="button" class="product__plus product__counters-item">+</button>
+        </div>
+    </form>
+</div>
+            </div>
+          </div>
+          <!-- Mobile Progress -->
+          <div class="popular__slider-pagination section__items-progress swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Feedback -->
+    <section class="feedback__section section__items">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section__header">
+          <!-- Title -->
+          <h3 class="section__header-title">Отзыви о нас</h3>
+        </div>
+
+        <div class="feedback__body">
+          <picture><source srcset="images/feedback.webp" type="image/webp"><img src="images/feedback.jpg" alt=""></picture>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="services__section section__items">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section__header">
+          <!-- Title -->
+          <h3 class="section__header-title">Популярные товары</h3>
+        </div>
+        <!-- Slider -->
+        <div class="swiper services__slider section__items-slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="service">
+    <!-- Header -->
+    <a href="#" class="service__header">
+        <!-- Sale -->
+        <span class="service__promo">
+            Акция
+        </span>
+        <!-- Image -->
+        <picture><source srcset="images/ser-1.webp" type="image/webp"><img class="service__img" src="images/ser-1.jpg" alt=""></picture>
+    </a>
+    <!-- Title -->
+    <a href="#">
+        <h3 class="service__title">
+            Рубка металла гильотиной
+        </h3>
+    </a>
+    <!-- Description -->
+    <p class="service__desc">
+        Краткое описание услуги. Краткое описание услуги. И что-то еще.
+    </p>
+    <!-- Price -->
+    <div class="service__price">
+        <!-- Original Prise -->
+        <del class="service__price-del">
+            от 100 000 Р / тонна
+        </del>
+        <!-- Price Now -->
+        <p class="service__price-bold">
+            от 1 000 ₽/тонна
+        </p>
+    </div>
+    <!-- Footer -->
+    <p class="service__footer">
+        <!-- To basket -->
+        <button class="service__basket service__btn btn red">
+            <i class="i-basket"></i>
+            <p>В КОРЗИНУ</p>
+        </button>
+        <!-- Link -->
+        <a href="" class="service__link service__btn btn grey">ПОДРОБНЕЕ</a>
+    </p>
+</div>
+            </div>
+            <div class="swiper-slide">
+              <div class="service">
+    <!-- Header -->
+    <a href="#" class="service__header">
+        <!-- Sale -->
+        <span class="service__promo">
+            Акция
+        </span>
+        <!-- Image -->
+        <picture><source srcset="images/ser-1.webp" type="image/webp"><img class="service__img" src="images/ser-1.jpg" alt=""></picture>
+    </a>
+    <!-- Title -->
+    <a href="#">
+        <h3 class="service__title">
+            Рубка металла гильотиной
+        </h3>
+    </a>
+    <!-- Description -->
+    <p class="service__desc">
+        Краткое описание услуги. Краткое описание услуги. И что-то еще.
+    </p>
+    <!-- Price -->
+    <div class="service__price">
+        <!-- Original Prise -->
+        <del class="service__price-del">
+            от 100 000 Р / тонна
+        </del>
+        <!-- Price Now -->
+        <p class="service__price-bold">
+            от 1 000 ₽/тонна
+        </p>
+    </div>
+    <!-- Footer -->
+    <p class="service__footer">
+        <!-- To basket -->
+        <button class="service__basket service__btn btn red">
+            <i class="i-basket"></i>
+            <p>В КОРЗИНУ</p>
+        </button>
+        <!-- Link -->
+        <a href="" class="service__link service__btn btn grey">ПОДРОБНЕЕ</a>
+    </p>
+</div>
+            </div>
+            <div class="swiper-slide">
+              <div class="service">
+    <!-- Header -->
+    <a href="#" class="service__header">
+        <!-- Sale -->
+        <span class="service__promo">
+            Акция
+        </span>
+        <!-- Image -->
+        <picture><source srcset="images/ser-1.webp" type="image/webp"><img class="service__img" src="images/ser-1.jpg" alt=""></picture>
+    </a>
+    <!-- Title -->
+    <a href="#">
+        <h3 class="service__title">
+            Рубка металла гильотиной
+        </h3>
+    </a>
+    <!-- Description -->
+    <p class="service__desc">
+        Краткое описание услуги. Краткое описание услуги. И что-то еще.
+    </p>
+    <!-- Price -->
+    <div class="service__price">
+        <!-- Original Prise -->
+        <del class="service__price-del">
+            от 100 000 Р / тонна
+        </del>
+        <!-- Price Now -->
+        <p class="service__price-bold">
+            от 1 000 ₽/тонна
+        </p>
+    </div>
+    <!-- Footer -->
+    <p class="service__footer">
+        <!-- To basket -->
+        <button class="service__basket service__btn btn red">
+            <i class="i-basket"></i>
+            <p>В КОРЗИНУ</p>
+        </button>
+        <!-- Link -->
+        <a href="" class="service__link service__btn btn grey">ПОДРОБНЕЕ</a>
+    </p>
+</div>
+            </div>
+            <div class="swiper-slide">
+              <div class="service">
+    <!-- Header -->
+    <a href="#" class="service__header">
+        <!-- Sale -->
+        <span class="service__promo">
+            Акция
+        </span>
+        <!-- Image -->
+        <picture><source srcset="images/ser-1.webp" type="image/webp"><img class="service__img" src="images/ser-1.jpg" alt=""></picture>
+    </a>
+    <!-- Title -->
+    <a href="#">
+        <h3 class="service__title">
+            Рубка металла гильотиной
+        </h3>
+    </a>
+    <!-- Description -->
+    <p class="service__desc">
+        Краткое описание услуги. Краткое описание услуги. И что-то еще.
+    </p>
+    <!-- Price -->
+    <div class="service__price">
+        <!-- Original Prise -->
+        <del class="service__price-del">
+            от 100 000 Р / тонна
+        </del>
+        <!-- Price Now -->
+        <p class="service__price-bold">
+            от 1 000 ₽/тонна
+        </p>
+    </div>
+    <!-- Footer -->
+    <p class="service__footer">
+        <!-- To basket -->
+        <button class="service__basket service__btn btn red">
+            <i class="i-basket"></i>
+            <p>В КОРЗИНУ</p>
+        </button>
+        <!-- Link -->
+        <a href="" class="service__link service__btn btn grey">ПОДРОБНЕЕ</a>
+    </p>
+</div>
+            </div>
+          </div>
+          <!-- Mobile Progress -->
+          <div class="services__slider-pagination section__items-progress swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq__section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5">
+            <!-- Title -->
+            <h2 class="faq__section-title">Часто задаваемые <br> вопросы</h2>
+          </div>
+          <div class="col-lg-7">
+            <!-- FAQ -->
+            <ul class="faq">
+              <li id="faq-accardion" class="faq__item active">
+                <!-- header -->
+                <div class="faq__item-header">
+                  <!-- Title -->
+                  <h3 class="faq__item-title">
+                    Какой вопрос интересен пользователю?
+                  </h3>
+                </div>
+                <div class="faq__item-content">
+                  <p>
+                    Velit occaecat duis occaecat nostrud. Veniam occaecat id ea Lorem est officia excepteur cupidatat
+                    consectetur. Labore do nulla ipsum dolore ipsum. Proident excepteur ex aliqua cupidatat adipisicing
+                    in cillum amet eu dolore labore in aliquip. Velit occaecat duis occaecat nostrud. Veniam occaecat id
+                    ea.
+                  </p>
+                </div>
+              </li>
+              <li id="faq-accardion" class="faq__item">
+                <!-- header -->
+                <div class="faq__item-header">
+                  <!-- Title -->
+                  <h3 class="faq__item-title">
+                    Какой вопрос интересен пользователю?
+                  </h3>
+                </div>
+                <div class="faq__item-content">
+                  <p>
+                    Velit occaecat duis occaecat nostrud. Veniam occaecat id ea Lorem est officia excepteur cupidatat
+                    consectetur. Labore do nulla ipsum dolore ipsum. Proident excepteur ex aliqua cupidatat adipisicing
+                    in cillum amet eu dolore labore in aliquip. Velit occaecat duis occaecat nostrud. Veniam occaecat id
+                    ea.
+                  </p>
+                </div>
+              </li>
+              <li id="faq-accardion" class="faq__item">
+                <!-- header -->
+                <div class="faq__item-header">
+                  <!-- Title -->
+                  <h3 class="faq__item-title">
+                    Какой вопрос интересен пользователю?
+                  </h3>
+                </div>
+                <div class="faq__item-content">
+                  <p>
+                    Velit occaecat duis occaecat nostrud. Veniam occaecat id ea Lorem est officia excepteur cupidatat
+                    consectetur. Labore do nulla ipsum dolore ipsum. Proident excepteur ex aliqua cupidatat adipisicing
+                    in cillum amet eu dolore labore in aliquip. Velit occaecat duis occaecat nostrud. Veniam occaecat id
+                    ea.
+                  </p>
+                </div>
+              </li>
+              <li id="faq-accardion" class="faq__item">
+                <!-- header -->
+                <div class="faq__item-header">
+                  <!-- Title -->
+                  <h3 class="faq__item-title">
+                    Какой вопрос интересен пользователю?
+                  </h3>
+                </div>
+                <div class="faq__item-content">
+                  <p>
+                    Velit occaecat duis occaecat nostrud. Veniam occaecat id ea Lorem est officia excepteur cupidatat
+                    consectetur. Labore do nulla ipsum dolore ipsum. Proident excepteur ex aliqua cupidatat adipisicing
+                    in cillum amet eu dolore labore in aliquip. Velit occaecat duis occaecat nostrud. Veniam occaecat id
+                    ea.
+                  </p>
+                </div>
+              </li>
+              <li id="faq-accardion" class="faq__item">
+                <!-- header -->
+                <div class="faq__item-header">
+                  <!-- Title -->
+                  <h3 class="faq__item-title">
+                    Какой вопрос интересен пользователю?
+                  </h3>
+                </div>
+                <div class="faq__item-content">
+                  <p>
+                    Velit occaecat duis occaecat nostrud. Veniam occaecat id ea Lorem est officia excepteur cupidatat
+                    consectetur. Labore do nulla ipsum dolore ipsum. Proident excepteur ex aliqua cupidatat adipisicing
+                    in cillum amet eu dolore labore in aliquip. Velit occaecat duis occaecat nostrud. Veniam occaecat id
+                    ea.
+                  </p>
+                </div>
+              </li>
+              <li id="faq-accardion" class="faq__item">
+                <!-- header -->
+                <div class="faq__item-header">
+                  <!-- Title -->
+                  <h3 class="faq__item-title">
+                    Какой вопрос интересен пользователю?
+                  </h3>
+                </div>
+                <div class="faq__item-content">
+                  <p>
+                    Velit occaecat duis occaecat nostrud. Veniam occaecat id ea Lorem est officia excepteur cupidatat
+                    consectetur. Labore do nulla ipsum dolore ipsum. Proident excepteur ex aliqua cupidatat adipisicing
+                    in cillum amet eu dolore labore in aliquip. Velit occaecat duis occaecat nostrud. Veniam occaecat id
+                    ea.
+                  </p>
+                </div>
+              </li>
+              <li id="faq-accardion" class="faq__item">
+                <!-- header -->
+                <div class="faq__item-header">
+                  <!-- Title -->
+                  <h3 class="faq__item-title">
+                    Какой вопрос интересен пользователю?
+                  </h3>
+                </div>
+                <div class="faq__item-content">
+                  <p>
+                    Velit occaecat duis occaecat nostrud. Veniam occaecat id ea Lorem est officia excepteur cupidatat
+                    consectetur. Labore do nulla ipsum dolore ipsum. Proident excepteur ex aliqua cupidatat adipisicing
+                    in cillum amet eu dolore labore in aliquip. Velit occaecat duis occaecat nostrud. Veniam occaecat id
+                    ea.
+                  </p>
+                </div>
+              </li>
+            </ul>
+            <!-- Button View Another -->
+            <button class="faq__section-view btn grey border-no grey-border">
+              ПОказать больше вопросов
+              <i class="i-angle-down"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Form Contact -->
+    <section class="contact__section top">
+      <div class="contact__container container">
+          <div class="contact">
+              <!-- Header -->
+              <div class="contact__header">
+                  <!-- First -->
+                  <div class="contact__header-1">
+                      <!-- Question -->
+                      <b class="contact__header-question">
+                          Остались вопросы? <br> Задайте их нам!
+                      </b>
+                      <!-- Desc -->
+                      <p class="contact__header-subquestion">
+                          Вы можете связаться с нашим менеджером <br> по телефону или написать в мессенджеры.
+                      </p>
+                  </div>
+                  <!-- Second -->
+                  <div class="contact__header-2">
+                      <!-- Phone -->
+                      <a href="#" class="contact__header-phone">
+                          <i class="i-phone"></i>
+                          <p>+7 (383) 202-85-10</p>
+                      </a>
+                      <!-- Desc -->
+                      <p class="contact__header-subphone">
+                          либо воспользоваться формой ниже <br> и отправить нам вопрос на электронную почту.
+                      </p>
+                  </div>
+                  <!-- Third -->
+                  <ul class="contact__header-socials">
+                      <li class="contact__header-socials-item">
+                          <a href="#" class="contact__header-socials-link">
+                              <!-- Icon -->
+                              <div class="icon">
+                                  <i class="i-whatsapp"></i>
+                              </div>
+                              <!-- Content -->
+                              <div class="content">
+                                  <small>
+                                      Написать в
+                                  </small>
+  
+                                  <p>WhatsApp</p>
+                              </div>
+                          </a>
+                      </li>
+                      <li class="contact__header-socials-item">
+                          <a href="#" class="contact__header-socials-link">
+                              <!-- Icon -->
+                              <div class="icon">
+                                  <i class="i-telegram"></i>
+                              </div>
+                              <!-- Content -->
+                              <div class="content">
+                                  <small>
+                                      Написать в
+                                  </small>
+  
+                                  <p>Telegram</p>
+                              </div>
+                          </a>
+                      </li>
+                  </ul>
+  
+                  <!-- Circle Animation -->
+                  <div class="contact__header-circle">
+                      <img src="images/circle-animation.svg" alt="">
+                  </div>
+              </div>
+              <!-- Body -->
+              <form class="contact__body">
+  
+                  <div class="contact__body-group row">
+                      <div class="col-xl-6">
+                          <!-- Name -->
+                          <div class="contact__body-control form-control contact__body-name">
+                              <label for="contact-name">Ваше имя</label>
+                              <input minlength="3" id="contact-name" type="text" placeholder="Введите имя">
+                          </div>
+                          <!-- Phone Number -->
+                          <div class="contact__body-control form-control contact__body-number">
+                              <label for="contact-phone">Ваш телефон</label>
+                              <input class="true" id="contact-phone" type="text" placeholder="+7 900 555 77 88">
+                          </div>
+                      </div>
+                      <div class="col-xl-6">
+                          <!-- Message -->
+                          <div class="contact__body-control form-control contact__body-message">
+                              <label for="contact-message">Какой у вас вопрос?</label>
+                              <textarea name="" id="contact-message" cols="30" rows="10"
+                                  placeholder="Начните писать..."></textarea>
+                          </div>
+                      </div>
+                  </div>
+  
+  
+                  <!-- Check -->
+                  <div class="contact__body-check">
+                      <input id="contact-check" type="checkbox">
+                      <label for="contact-check">
+                          Я даю свое согласие на <a href="#">обработку персональных данных</a>, <br> соглашаюсь с политикой
+                          обработки оператора.
+                      </label>
+                  </div>
+  
+                  <!-- Submit -->
+                  <button type="submit" class="contact__body-submit btn red">ОТПРАВИТЬ ВОПРОС</button>
+              </form>
+          </div>
+      </div>
+  </section>
+
+    <!-- Popular Post -->
+    <section class="posts__section section__items">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section__header">
+          <!-- Title -->
+          <h3 class="section__header-title">Популярные статьи из блога</h3>
+
+          <!-- toolbar -->
+          <div class="section__header-toolbar">
+            <!-- Link -->
+            <a href="" class="section__header-link btn grey border-no grey-border">ПОСМОТРЕТЬ ВСЕ СТАТЬИ</a>
+          </div>
+        </div>
+        <!-- Slider -->
+        <div class="swiper posts__slider section__items-slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="new">
+    <!-- Image -->
+    <a href="#" class="new__img">
+        <picture><source srcset="images/new.webp" type="image/webp"><img src="images/new.jpg" alt=""></picture>
+    </a>
+
+    <!-- Body -->
+    <div class="new__body">
+        <!-- Date -->
+        <p class="new__date">
+            <i class="i-date"></i>
+            10.11.2022
+        </p>
+
+        <!-- Title -->
+        <h3 class="new__title">
+            Металлоконструкции. Для каких целей.
+        </h3>
+
+        <!-- Description -->
+        <p class="new__desc">
+            Labore do nulla ipsum dolore ipsum. Proident excepteur ex aliqua cupidatat adipisicing in cillum.
+        </p>
+
+        <!-- Link -->
+        <a href="#" class="new__link">
+            Читать полностью
+        </a>
+    </div>
+</div>
+            </div>
+            <div class="swiper-slide">
+              <div class="new">
+    <!-- Image -->
+    <a href="#" class="new__img">
+        <picture><source srcset="images/new.webp" type="image/webp"><img src="images/new.jpg" alt=""></picture>
+    </a>
+
+    <!-- Body -->
+    <div class="new__body">
+        <!-- Date -->
+        <p class="new__date">
+            <i class="i-date"></i>
+            10.11.2022
+        </p>
+
+        <!-- Title -->
+        <h3 class="new__title">
+            Металлоконструкции. Для каких целей.
+        </h3>
+
+        <!-- Description -->
+        <p class="new__desc">
+            Labore do nulla ipsum dolore ipsum. Proident excepteur ex aliqua cupidatat adipisicing in cillum.
+        </p>
+
+        <!-- Link -->
+        <a href="#" class="new__link">
+            Читать полностью
+        </a>
+    </div>
+</div>
+            </div>
+            <div class="swiper-slide">
+              <div class="new">
+    <!-- Image -->
+    <a href="#" class="new__img">
+        <picture><source srcset="images/new.webp" type="image/webp"><img src="images/new.jpg" alt=""></picture>
+    </a>
+
+    <!-- Body -->
+    <div class="new__body">
+        <!-- Date -->
+        <p class="new__date">
+            <i class="i-date"></i>
+            10.11.2022
+        </p>
+
+        <!-- Title -->
+        <h3 class="new__title">
+            Металлоконструкции. Для каких целей.
+        </h3>
+
+        <!-- Description -->
+        <p class="new__desc">
+            Labore do nulla ipsum dolore ipsum. Proident excepteur ex aliqua cupidatat adipisicing in cillum.
+        </p>
+
+        <!-- Link -->
+        <a href="#" class="new__link">
+            Читать полностью
+        </a>
+    </div>
+</div>
+            </div>
+            <div class="swiper-slide">
+              <div class="new">
+    <!-- Image -->
+    <a href="#" class="new__img">
+        <picture><source srcset="images/new.webp" type="image/webp"><img src="images/new.jpg" alt=""></picture>
+    </a>
+
+    <!-- Body -->
+    <div class="new__body">
+        <!-- Date -->
+        <p class="new__date">
+            <i class="i-date"></i>
+            10.11.2022
+        </p>
+
+        <!-- Title -->
+        <h3 class="new__title">
+            Металлоконструкции. Для каких целей.
+        </h3>
+
+        <!-- Description -->
+        <p class="new__desc">
+            Labore do nulla ipsum dolore ipsum. Proident excepteur ex aliqua cupidatat adipisicing in cillum.
+        </p>
+
+        <!-- Link -->
+        <a href="#" class="new__link">
+            Читать полностью
+        </a>
+    </div>
+</div>
+            </div>
+          </div>
+          <!-- Mobile Progress -->
+          <div class="posts__slider-pagination section__items-progress swiper-pagination"></div>
+        </div>
+        <!-- View All -->
+        <a href="#" class="section__items-view btn grey border-no grey-border">Посмотреть все</a>
+      </div>
+    </section>
+
+    <!-- News -->
+    <section class="news__section section__items">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section__header">
+          <!-- Title -->
+          <h3 class="section__header-title">Главные новости компании</h3>
+        </div>
+        <!-- Slider -->
+        <div class="swiper news__slider section__items-slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="post">
+    <!-- Date -->
+    <p class="post__date">
+        <i class="i-date"></i>
+        10.11.2022
+    </p>
+
+    <!-- Title -->
+    <h3 class="post__title">
+        Мы запустили новый и удобный сайт для вас
+    </h3>
+
+    <!-- Description -->
+    <p class="post__desc">
+        Labore do nulla ipsum dolore ipsum. Proident excepteur ex aliqua cupidatat adipisicing in cillum. Labore do
+        nulla ipsum dolore ipsum. Proident excepteur ex aliqua cupidatat adipisicing in cillum. Labore do nulla ipsum
+        dolore ipsum. Proident excepteur ex aliqua cupidatat.
+    </p>
+</div>
+            </div>
+            <div class="swiper-slide">
+              <div class="post">
+    <!-- Date -->
+    <p class="post__date">
+        <i class="i-date"></i>
+        10.11.2022
+    </p>
+
+    <!-- Title -->
+    <h3 class="post__title">
+        Мы запустили новый и удобный сайт для вас
+    </h3>
+
+    <!-- Description -->
+    <p class="post__desc">
+        Labore do nulla ipsum dolore ipsum. Proident excepteur ex aliqua cupidatat adipisicing in cillum. Labore do
+        nulla ipsum dolore ipsum. Proident excepteur ex aliqua cupidatat adipisicing in cillum. Labore do nulla ipsum
+        dolore ipsum. Proident excepteur ex aliqua cupidatat.
+    </p>
+</div>
+            </div>
+            <div class="swiper-slide">
+              <div class="post">
+    <!-- Date -->
+    <p class="post__date">
+        <i class="i-date"></i>
+        10.11.2022
+    </p>
+
+    <!-- Title -->
+    <h3 class="post__title">
+        Мы запустили новый и удобный сайт для вас
+    </h3>
+
+    <!-- Description -->
+    <p class="post__desc">
+        Labore do nulla ipsum dolore ipsum. Proident excepteur ex aliqua cupidatat adipisicing in cillum. Labore do
+        nulla ipsum dolore ipsum. Proident excepteur ex aliqua cupidatat adipisicing in cillum. Labore do nulla ipsum
+        dolore ipsum. Proident excepteur ex aliqua cupidatat.
+    </p>
+</div>
+            </div>
+            <div class="swiper-slide">
+              <div class="post">
+    <!-- Date -->
+    <p class="post__date">
+        <i class="i-date"></i>
+        10.11.2022
+    </p>
+
+    <!-- Title -->
+    <h3 class="post__title">
+        Мы запустили новый и удобный сайт для вас
+    </h3>
+
+    <!-- Description -->
+    <p class="post__desc">
+        Labore do nulla ipsum dolore ipsum. Proident excepteur ex aliqua cupidatat adipisicing in cillum. Labore do
+        nulla ipsum dolore ipsum. Proident excepteur ex aliqua cupidatat adipisicing in cillum. Labore do nulla ipsum
+        dolore ipsum. Proident excepteur ex aliqua cupidatat.
+    </p>
+</div>
+            </div>
+          </div>
+          <!-- Mobile Progress -->
+          <div class="news__slider-pagination section__items-progress swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__body">
+        <!-- title -->
+        <h2 class="footer__title">
+            Свяжитесь с нами
+        </h2>
+
+        <!-- Contacts -->
+        <ul class="footer__contacts">
+            <li class="footer__contacts-item">
+                <strong>Адрес</strong>
+                <p>660061, г. Красноярск, ул. Калинина 51Г</p>
+            </li>
+            <li class="footer__contacts-item">
+                <strong>Телефон</strong>
+                <p>+7 (391) 219-24-00</p>
+            </li>
+            <li class="footer__contacts-item">
+                <strong>E-mail</strong>
+                <p>info@metallosnab.com</p>
+            </li>
+            <li class="footer__contacts-item">
+                <strong>График работы</strong>
+                <p>Пн-Пт с 9:00 до 20:00</p>
+            </li>
+        </ul>
+
+        <!-- Socials -->
+        <ul class="footer__socials">
+            <li class="footer__socials-item">
+                <a href="#" class="footer__socials-link">
+                    <div class="icon">
+                        <i class="i-whatsapp"></i>
+                    </div>
+                    <div class="content">
+                        <small>Написать в</small>
+                        <strong>WhatsApp</strong>
+                    </div>
+                </a>
+            </li>
+            <li class="footer__socials-item">
+                <a href="#" class="footer__socials-link">
+                    <div class="icon">
+                        <i class="i-whatsapp"></i>
+                    </div>
+                    <div class="content">
+                        <small>Написать в</small>
+                        <strong>WhatsApp</strong>
+                    </div>
+                </a>
+            </li>
+        </ul>
+
+        <!-- Links -->
+        <ul class="footer__links">
+            <li class="footer__links-item"><a href="" class="footer__links-link">Политика конфиденциальности</a></li>
+            <li class="footer__links-item"><a href="" class="footer__links-link">Карта сайта</a></li>
+            <li class="footer__links-item"><a href="" class="footer__links-link">Вакансии</a></li>
+        </ul>
+    </div>
+    <div class="footer__map">
+        <div style="position:relative;overflow:hidden;"><a href="https://yandex.com/maps/213/moscow/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Москва</a><a href="https://yandex.com/maps/213/moscow/?ll=37.585925%2C55.805465&utm_medium=mapframe&utm_source=maps&z=15.42" style="color:#eee;font-size:12px;position:absolute;top:14px;">Россия — Яндекс Карты</a><iframe src="https://yandex.com/map-widget/v1/?ll=37.585925%2C55.805465&z=15.42" width="100%" height="765" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+    </div>
+</footer>
+<section class="footer__copyright">
+    <div class="container footer__copyright-container">
+        <div class="col-sm-10">
+            <p>© 2022 “Металлоснаб” - База металлопроката в Красноярске. Все права защищены, любое копирование материалов запрещено. Вся представленная информация на сайте носит информационный характер и ни при каких условиях не является публичной офертой.</p>
+        </div>
+    </div>
+</section>
+
+  <!-- Mobile Popups -->
+  <div id="select-city" class="select__city-overlay">
+    <div class="select__city">
+        <!-- Close -->
+        <button id="select-city-close" class="select__city-close">
+            <i class="i-close"></i>
+        </button>
+
+        <!-- Title -->
+        <h3 class="select__city-title">Выберите город</h3>
+
+        <!-- Form -->
+        <div class="select__city-control">
+            <input placeholder="Найти свой город" type="text" class="select__city-input">
+        </div>
+
+        <ul class="select__city-list">
+            <li class="select__city-list-item">
+                <a href="#" class="select__city-list-link active">Красноярск</a>
+            </li>
+            <li class="select__city-list-item">
+                <a href="#" class="select__city-list-link">Красноярск</a>
+            </li>
+            <li class="select__city-list-item">
+                <a href="#" class="select__city-list-link">Красноярск</a>
+            </li>
+            <li class="select__city-list-item">
+                <a href="#" class="select__city-list-link">Красноярск</a>
+            </li>
+            <li class="select__city-list-item">
+                <a href="#" class="select__city-list-link">Красноярск</a>
+            </li>
+            <li class="select__city-list-item">
+                <a href="#" class="select__city-list-link">Красноярск</a>
+            </li>
+        </ul>
+    </div>
+</div>
+  <!-- Search Overlay -->
+<div id="search-mobile" class="mobile__popup-overlay mobile__search">
+    <div class="container">
+        <!-- Close Popup -->
+        <button id="search-mobile-close" class="mobile__popup-close">
+            <i class="i-close"></i>
+            <p class="mobile__search-close-txt">Поиск</p>
+        </button>
+
+        <form action="" class="mobile__search-form">
+            <div class="mobile__search-control">
+                <input placeholder="Что вы ищете?" type="text" class="mobile__search-input">
+                <button class="mobile__search-btn">
+                    <i class="i-close"></i>
+                </button>
+            </div>
+        </form>
+
+        <ul class="mobile__search-list">
+            <li class="mobile__search-list-item">
+                <a href="#" class="mobile__search-list-link">
+                    <i class="i-search"></i>
+                    <p>Листовой прокат</p>
+                </a>
+            </li>
+            <li class="mobile__search-list-item">
+                <a href="#" class="mobile__search-list-link">
+                    <i class="i-search"></i>
+                    <p>Листовой прокат</p>
+                </a>
+            </li>
+            <li class="mobile__search-list-item">
+                <a href="#" class="mobile__search-list-link">
+                    <i class="i-search"></i>
+                    <p>Листовой прокат</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+  <!-- Mobile Menu -->
+<div id="menu-mobile" class="mobile__popup-overlay menu__mobile">
+    <div class="container">
+        <!-- Close Popup -->
+        <button id="menu-mobile-close" class="mobile__popup-close">
+            <i class="i-close"></i>
+            <p class="mobile__search-close-txt">МЕНЮ</p>
+        </button>
+
+        <ul class="menu__mobile-list">
+            <li class="menu__mobile-list-item active">
+                <p id="menu-mobile-accardion-open" class="menu__mobile-list-title">Листовой прокат</p>
+
+                <ul class="menu__mobile-dropdown">
+                    <li class="menu__mobile-dropdown-item">
+                        <a href="#" class="menu__mobile-dropdown-link">
+                            Подменю 1
+                        </a>
+                    </li>
+                    <li class="menu__mobile-dropdown-item">
+                        <a href="#" class="menu__mobile-dropdown-link">
+                            Подменю 1
+                        </a>
+                    </li>
+                    <li class="menu__mobile-dropdown-item">
+                        <a href="#" class="menu__mobile-dropdown-link">
+                            Подменю 1
+                        </a>
+                    </li>
+                    <li class="menu__mobile-dropdown-item">
+                        <a href="#" class="menu__mobile-dropdown-link">
+                            Подменю 1
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="menu__mobile-list-item">
+                <p id="menu-mobile-accardion-open" class="menu__mobile-list-title">Листовой прокат</p>
+
+                <ul class="menu__mobile-dropdown">
+                    <li class="menu__mobile-dropdown-item">
+                        <a href="#" class="menu__mobile-dropdown-link">
+                            Подменю 1
+                        </a>
+                    </li>
+                    <li class="menu__mobile-dropdown-item">
+                        <a href="#" class="menu__mobile-dropdown-link">
+                            Подменю 1
+                        </a>
+                    </li>
+                    <li class="menu__mobile-dropdown-item">
+                        <a href="#" class="menu__mobile-dropdown-link">
+                            Подменю 1
+                        </a>
+                    </li>
+                    <li class="menu__mobile-dropdown-item">
+                        <a href="#" class="menu__mobile-dropdown-link">
+                            Подменю 1
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="menu__mobile-list-item">
+                <p id="menu-mobile-accardion-open" class="menu__mobile-list-title">Листовой прокат</p>
+
+                <ul class="menu__mobile-dropdown">
+                    <li class="menu__mobile-dropdown-item">
+                        <a href="#" class="menu__mobile-dropdown-link">
+                            Подменю 1
+                        </a>
+                    </li>
+                    <li class="menu__mobile-dropdown-item">
+                        <a href="#" class="menu__mobile-dropdown-link">
+                            Подменю 1
+                        </a>
+                    </li>
+                    <li class="menu__mobile-dropdown-item">
+                        <a href="#" class="menu__mobile-dropdown-link">
+                            Подменю 1
+                        </a>
+                    </li>
+                    <li class="menu__mobile-dropdown-item">
+                        <a href="#" class="menu__mobile-dropdown-link">
+                            Подменю 1
+                        </a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+
+        <ul class="menu__mobile-menu">
+            <li class="menu__mobile-menu-item">
+                <a href="#" class="menu__mobile-menu-link">
+                    О компании
+                </a>
+            </li>
+            <li class="menu__mobile-menu-item">
+                <a href="#" class="menu__mobile-menu-link">
+                    О компании
+                </a>
+            </li>
+            <li class="menu__mobile-menu-item">
+                <a href="#" class="menu__mobile-menu-link">
+                    О компании
+                </a>
+            </li>
+            <li class="menu__mobile-menu-item">
+                <a href="#" class="menu__mobile-menu-link">
+                    О компании
+                </a>
+            </li>
+            <li class="menu__mobile-menu-item">
+                <a href="#" class="menu__mobile-menu-link">
+                    О компании
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+  <!-- City -->
+<div id="city-mobile" class="mobile__popup-overlay mobile__city">
+    <div class="container">
+        <!-- Close Popup -->
+        <button id="city-mobile-close" class="mobile__popup-close">
+            <i class="i-close"></i>
+            <p class="mobile__city-close-txt">ВЫБОР ГОРОДА</p>
+        </button>
+
+        <!-- Title -->
+        <h3 class="mobile__city-title">Выберите город</h3>
+
+        <!-- Form -->
+            <div class="mobile__city-control">
+                <input placeholder="Найти свой город" type="text" class="mobile__city-input">
+                <button class="mobile__city-btn">
+                    <i class="i-close"></i>
+                </button>
+            </div>
+
+        <ul class="mobile__city-list">
+            <li class="mobile__city-list-item">
+                <a href="#" class="mobile__city-list-link active">Красноярск</a>
+            </li>
+            <li class="mobile__city-list-item">
+                <a href="#" class="mobile__city-list-link">Красноярск</a>
+            </li>
+            <li class="mobile__city-list-item">
+                <a href="#" class="mobile__city-list-link">Красноярск</a>
+            </li>
+            <li class="mobile__city-list-item">
+                <a href="#" class="mobile__city-list-link">Красноярск</a>
+            </li>
+            <li class="mobile__city-list-item">
+                <a href="#" class="mobile__city-list-link">Красноярск</a>
+            </li>
+            <li class="mobile__city-list-item">
+                <a href="#" class="mobile__city-list-link">Красноярск</a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12?_v=20230210135310"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js?_v=20230210135310"></script>
+  <script src="js/app.min.js?_v=20230210135310"></script>
+</body>
+
+</html>
